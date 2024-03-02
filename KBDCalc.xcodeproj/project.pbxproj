@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */; };
-		B0A7DDEC2B92710C00B6D6A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDEB2B92710C00B6D6A5 /* ContentView.swift */; };
 		B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */; };
 		B0A7DDF22B92710D00B6D6A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDF12B92710D00B6D6A5 /* Preview Assets.xcassets */; };
+		B0A7DDFE2B9296D000B6D6A5 /* SunMoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDFD2B9296D000B6D6A5 /* SunMoonView.swift */; };
+		B0A7DE012B9297F500B6D6A5 /* iPadSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE002B9297F500B6D6A5 /* iPadSupport.swift */; };
+		B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE022B929A0800B6D6A5 /* ComputationView.swift */; };
+		B0A7DE052B929B4300B6D6A5 /* CalculatorButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE042B929B4300B6D6A5 /* CalculatorButtonsView.swift */; };
+		B0A7DE072B929B6F00B6D6A5 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE062B929B6F00B6D6A5 /* Enumerations.swift */; };
+		B0A7DE0B2B92A04200B6D6A5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE0A2B92A04200B6D6A5 /* ButtonView.swift */; };
+		B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE0C2B92A25900B6D6A5 /* EnvironmentValues.swift */; };
+		B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */; };
+		B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBDCalcApp.swift; sourceTree = "<group>"; };
-		B0A7DDEB2B92710C00B6D6A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A7DDEF2B92710D00B6D6A5 /* KBDCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KBDCalc.entitlements; sourceTree = "<group>"; };
 		B0A7DDF12B92710D00B6D6A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0A7DDFD2B9296D000B6D6A5 /* SunMoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonView.swift; sourceTree = "<group>"; };
+		B0A7DE002B9297F500B6D6A5 /* iPadSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadSupport.swift; sourceTree = "<group>"; };
+		B0A7DE022B929A0800B6D6A5 /* ComputationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputationView.swift; sourceTree = "<group>"; };
+		B0A7DE042B929B4300B6D6A5 /* CalculatorButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonsView.swift; sourceTree = "<group>"; };
+		B0A7DE062B929B6F00B6D6A5 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		B0A7DE0A2B92A04200B6D6A5 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		B0A7DE0C2B92A25900B6D6A5 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */,
-				B0A7DDEB2B92710C00B6D6A5 /* ContentView.swift */,
+				B0A7DDFC2B92969C00B6D6A5 /* Extensions */,
+				B0A7DDFB2B92969500B6D6A5 /* Constants */,
+				B0A7DDFA2B92968D00B6D6A5 /* Views */,
 				B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */,
 				B0A7DDEF2B92710D00B6D6A5 /* KBDCalc.entitlements */,
 				B0A7DDF02B92710D00B6D6A5 /* Preview Content */,
@@ -67,6 +85,36 @@
 				B0A7DDF12B92710D00B6D6A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0A7DDFA2B92968D00B6D6A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */,
+				B0A7DE042B929B4300B6D6A5 /* CalculatorButtonsView.swift */,
+				B0A7DE0A2B92A04200B6D6A5 /* ButtonView.swift */,
+				B0A7DE022B929A0800B6D6A5 /* ComputationView.swift */,
+				B0A7DDFD2B9296D000B6D6A5 /* SunMoonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0A7DDFB2B92969500B6D6A5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7DE062B929B6F00B6D6A5 /* Enumerations.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B0A7DDFC2B92969C00B6D6A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7DE002B9297F500B6D6A5 /* iPadSupport.swift */,
+				B0A7DE0C2B92A25900B6D6A5 /* EnvironmentValues.swift */,
+				B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A7DDEC2B92710C00B6D6A5 /* ContentView.swift in Sources */,
+				B0A7DE052B929B4300B6D6A5 /* CalculatorButtonsView.swift in Sources */,
+				B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */,
 				B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */,
+				B0A7DDFE2B9296D000B6D6A5 /* SunMoonView.swift in Sources */,
+				B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */,
+				B0A7DE012B9297F500B6D6A5 /* iPadSupport.swift in Sources */,
+				B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */,
+				B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */,
+				B0A7DE072B929B6F00B6D6A5 /* Enumerations.swift in Sources */,
+				B0A7DE0B2B92A04200B6D6A5 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
