@@ -12,6 +12,7 @@ enum Operation {
 }
 
 enum CalcButton: String {
+  // numerals
   case one =        "1"
   case two =        "2"
   case three =      "3"
@@ -22,17 +23,20 @@ enum CalcButton: String {
   case eight =      "8"
   case nine =       "9"
   case zero =       "0"
+  case decimal =    "."
+  case openParen =  "("
+  case closeParen = ")"
+  case negative =   "IMAGEplus.forwardslash.minus"
   
+  // operators etc.
   case add =        "+"
   case subtract =   "-"
   case multiply =   "✕"
   case divide =     "÷"
   case equal =      "="
-  case clear =      "AC"
-  case decimal =    "."
   case percent =    "%"
-  case negative =   "IMAGEplus.forwardslash.minus"
-  case undo =       "IMAGEarrow.counterclockwise"
+  case undo =       "IMAGEdelete.left.fill"
+  case star =       "IMAGEstar"
 }
 
 let enumOperators: [CalcButton] = [.subtract, .add, .multiply, .divide]

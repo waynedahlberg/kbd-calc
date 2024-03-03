@@ -12,16 +12,7 @@ struct ComputationView: View {
   let mainResult: String
   
   var body: some View {
-    VStack(spacing: 10) {
-      HStack {
-        Spacer()
-        Text(currentComputation)
-          .foregroundStyle(.foregroundDigits)
-          .font(UIDevice.isTablet ? .largeTitle : .body)
-          .lineLimit(1)
-      }
-      .minimumScaleFactor(0.1)
-      
+    VStack(alignment: .trailing, spacing: 10) {
       HStack {
         Spacer()
         Text(mainResult)
@@ -31,6 +22,17 @@ struct ComputationView: View {
           .lineLimit(1)
       }
       .minimumScaleFactor(0.1)
+      
+      HStack {
+        Spacer()
+        Text(currentComputation)
+          .foregroundStyle(.foregroundDigits)
+          .font(UIDevice.isTablet ? .largeTitle : .body)
+          .lineLimit(1)
+      }
+      .minimumScaleFactor(0.1)
+      
+      
     }
     .padding(.horizontal)
   }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B072488A2B930F5E00B12B0E /* KeyboardLayout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07248892B930F5E00B12B0E /* KeyboardLayout2.swift */; };
+		B072488C2B9312E400B12B0E /* FurryFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B072488B2B9312E400B12B0E /* FurryFriendsView.swift */; };
+		B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */; };
 		B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */; };
 		B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */; };
 		B0A7DDF22B92710D00B6D6A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDF12B92710D00B6D6A5 /* Preview Assets.xcassets */; };
@@ -19,9 +22,14 @@
 		B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE0C2B92A25900B6D6A5 /* EnvironmentValues.swift */; };
 		B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */; };
 		B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */; };
+		B0A7DE152B92BC1D00B6D6A5 /* KeyboardLayout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE142B92BC1D00B6D6A5 /* KeyboardLayout1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B07248892B930F5E00B12B0E /* KeyboardLayout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout2.swift; sourceTree = "<group>"; };
+		B072488B2B9312E400B12B0E /* FurryFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurryFriendsView.swift; sourceTree = "<group>"; };
+		B0924B0A2B93DFC8001DC0BF /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareKeysTestView.swift; sourceTree = "<group>"; };
 		B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBDCalcApp.swift; sourceTree = "<group>"; };
 		B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +44,7 @@
 		B0A7DE0C2B92A25900B6D6A5 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalculator.swift; sourceTree = "<group>"; };
+		B0A7DE142B92BC1D00B6D6A5 /* KeyboardLayout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 		B0A7DDE82B92710C00B6D6A5 /* KBDCalc */ = {
 			isa = PBXGroup;
 			children = (
+				B0A7DE132B92BC0B00B6D6A5 /* sandbox */,
 				B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */,
 				B0A7DDFC2B92969C00B6D6A5 /* Extensions */,
 				B0A7DDFB2B92969500B6D6A5 /* Constants */,
@@ -92,6 +102,7 @@
 			children = (
 				B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */,
 				B0A7DE042B929B4300B6D6A5 /* CalculatorButtonsView.swift */,
+				B072488B2B9312E400B12B0E /* FurryFriendsView.swift */,
 				B0A7DE0A2B92A04200B6D6A5 /* ButtonView.swift */,
 				B0A7DE022B929A0800B6D6A5 /* ComputationView.swift */,
 				B0A7DDFD2B9296D000B6D6A5 /* SunMoonView.swift */,
@@ -115,6 +126,17 @@
 				B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B0A7DE132B92BC0B00B6D6A5 /* sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7DE142B92BC1D00B6D6A5 /* KeyboardLayout1.swift */,
+				B07248892B930F5E00B12B0E /* KeyboardLayout2.swift */,
+				B0924B0A2B93DFC8001DC0BF /* Notes.md */,
+				B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */,
+			);
+			name = sandbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +217,10 @@
 				B0A7DE012B9297F500B6D6A5 /* iPadSupport.swift in Sources */,
 				B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */,
 				B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */,
+				B0A7DE152B92BC1D00B6D6A5 /* KeyboardLayout1.swift in Sources */,
+				B072488C2B9312E400B12B0E /* FurryFriendsView.swift in Sources */,
+				B072488A2B930F5E00B12B0E /* KeyboardLayout2.swift in Sources */,
+				B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */,
 				B0A7DE072B929B6F00B6D6A5 /* Enumerations.swift in Sources */,
 				B0A7DE0B2B92A04200B6D6A5 /* ButtonView.swift in Sources */,
 			);

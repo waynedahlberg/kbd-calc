@@ -26,7 +26,7 @@ struct CalculatorButtonsView: View {
   // Properties
   let buttonData: [RowOfCalculatorButtonsModel] = [
     RowOfCalculatorButtonsModel(row: [
-      CalcButtonModel(calcButton: .clear, color: .foregroundTopButton),       // A/C        Clear
+//      CalcButtonModel(calcButton: .clear, color: .foregroundTopButton),       // A/C        Clear
       CalcButtonModel(calcButton: .negative, color: .foregroundTopButton),    // Negative   +/-
       CalcButtonModel(calcButton: .percent, color: .foregroundTopButton),     // Percent    %
       CalcButtonModel(calcButton: .divide, color: .foregroundRightButton)     // Divide     /
@@ -82,9 +82,9 @@ struct CalculatorButtonsView: View {
     // func logic
     switch calcButton {
       
-    case .clear:
-      currentComputation = ""
-      mainResult = "0"
+//    case .clear:
+//      currentComputation = ""
+//      mainResult = "0"
       
     case .equal, .negative:
       if !currentComputation.isEmpty {
