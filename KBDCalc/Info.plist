@@ -4,8 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>SevenSegmentRegular</string>
-		<string>14SegmentLED</string>
+		<string>Seven Segment.ttf</string>
 	</array>
 </dict>
 </plist>

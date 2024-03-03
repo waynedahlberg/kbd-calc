@@ -31,8 +31,7 @@ struct SquareKeysTestView: View {
             VStack {
               Spacer()
               
-              RoundedRectangle(cornerRadius: 13.33, style: .continuous)
-                .fill(.red)
+              LEDGlowView(fontSize: UIDevice.isTablet ? 128 : 64)
                 .aspectRatio(2.19, contentMode: .fit)
                 .frame(width: proxy.size.width)
             }
@@ -66,6 +65,7 @@ struct SquareKeysTestView: View {
         .position(x: proxy.size.width / 2, y: proxy.size.height / 2)
       }
     }
+    .statusBarHidden()
   }
   
   private func randomColor() -> Color {
@@ -76,7 +76,7 @@ struct SquareKeysTestView: View {
   }
 }
 
-#Preview("Hello") {
+#Preview {
   SquareKeysTestView()
 }
 

@@ -7,14 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B04CADF02B942C0F0092909C /* SevenSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CADEF2B942C0F0092909C /* SevenSegmentView.swift */; };
 		B04CADF22B94303C0092909C /* LCDGlow.metal in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF12B94303C0092909C /* LCDGlow.metal */; };
-		B04CADF42B9439C60092909C /* LDCGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF32B9439C60092909C /* LDCGlowView.swift */; };
-		B04CADF72B943EBB0092909C /* MetalModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF62B943EBB0092909C /* MetalModifiers.swift */; };
-		B04CADF92B943F5B0092909C /* Rainbow.metal in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF82B943F5B0092909C /* Rainbow.metal */; };
-		B04CADFB2B94405B0092909C /* MetalContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CADFA2B94405B0092909C /* MetalContentView.swift */; };
-		B04CADFD2B94450F0092909C /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CADFC2B94450F0092909C /* CountdownView.swift */; };
-		B04CAE012B944B2A0092909C /* 14 Segment LED.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B04CAE002B944B290092909C /* 14 Segment LED.ttf */; };
+		B04CADF42B9439C60092909C /* LEDGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF32B9439C60092909C /* LEDGlowView.swift */; };
 		B04CAE032B944B3D0092909C /* Seven Segment.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B04CAE022B944B3D0092909C /* Seven Segment.ttf */; };
 		B072488A2B930F5E00B12B0E /* KeyboardLayout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07248892B930F5E00B12B0E /* KeyboardLayout2.swift */; };
 		B072488C2B9312E400B12B0E /* FurryFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B072488B2B9312E400B12B0E /* FurryFriendsView.swift */; };
@@ -35,14 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B04CADEF2B942C0F0092909C /* SevenSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenSegmentView.swift; sourceTree = "<group>"; };
 		B04CADF12B94303C0092909C /* LCDGlow.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = LCDGlow.metal; sourceTree = "<group>"; };
-		B04CADF32B9439C60092909C /* LDCGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDCGlowView.swift; sourceTree = "<group>"; };
-		B04CADF62B943EBB0092909C /* MetalModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalModifiers.swift; sourceTree = "<group>"; };
-		B04CADF82B943F5B0092909C /* Rainbow.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Rainbow.metal; sourceTree = "<group>"; };
-		B04CADFA2B94405B0092909C /* MetalContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalContentView.swift; sourceTree = "<group>"; };
-		B04CADFC2B94450F0092909C /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
-		B04CAE002B944B290092909C /* 14 Segment LED.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "14 Segment LED.ttf"; sourceTree = "<group>"; };
+		B04CADF32B9439C60092909C /* LEDGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDGlowView.swift; sourceTree = "<group>"; };
 		B04CAE022B944B3D0092909C /* Seven Segment.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seven Segment.ttf"; sourceTree = "<group>"; };
 		B04CAE042B944B7D0092909C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B07248892B930F5E00B12B0E /* KeyboardLayout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout2.swift; sourceTree = "<group>"; };
@@ -81,11 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				B04CADF12B94303C0092909C /* LCDGlow.metal */,
-				B04CADF82B943F5B0092909C /* Rainbow.metal */,
-				B04CADF32B9439C60092909C /* LDCGlowView.swift */,
-				B04CADF62B943EBB0092909C /* MetalModifiers.swift */,
-				B04CADFC2B94450F0092909C /* CountdownView.swift */,
-				B04CADFA2B94405B0092909C /* MetalContentView.swift */,
+				B04CADF32B9439C60092909C /* LEDGlowView.swift */,
 			);
 			name = Metal;
 			sourceTree = "<group>";
@@ -102,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				B04CAE022B944B3D0092909C /* Seven Segment.ttf */,
-				B04CAE002B944B290092909C /* 14 Segment LED.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -187,7 +170,6 @@
 				B07248892B930F5E00B12B0E /* KeyboardLayout2.swift */,
 				B0924B0A2B93DFC8001DC0BF /* Notes.md */,
 				B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */,
-				B04CADEF2B942C0F0092909C /* SevenSegmentView.swift */,
 			);
 			name = sandbox;
 			sourceTree = "<group>";
@@ -252,7 +234,6 @@
 			files = (
 				B0A7DDF22B92710D00B6D6A5 /* Preview Assets.xcassets in Resources */,
 				B04CAE032B944B3D0092909C /* Seven Segment.ttf in Resources */,
-				B04CAE012B944B2A0092909C /* 14 Segment LED.ttf in Resources */,
 				B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,21 +247,16 @@
 			files = (
 				B0A7DE052B929B4300B6D6A5 /* CalculatorButtonsView.swift in Sources */,
 				B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */,
-				B04CADF02B942C0F0092909C /* SevenSegmentView.swift in Sources */,
-				B04CADFD2B94450F0092909C /* CountdownView.swift in Sources */,
 				B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */,
 				B0A7DDFE2B9296D000B6D6A5 /* SunMoonView.swift in Sources */,
-				B04CADF92B943F5B0092909C /* Rainbow.metal in Sources */,
 				B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */,
 				B0A7DE012B9297F500B6D6A5 /* iPadSupport.swift in Sources */,
 				B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */,
 				B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */,
-				B04CADFB2B94405B0092909C /* MetalContentView.swift in Sources */,
 				B0A7DE152B92BC1D00B6D6A5 /* KeyboardLayout1.swift in Sources */,
 				B04CADF22B94303C0092909C /* LCDGlow.metal in Sources */,
 				B072488C2B9312E400B12B0E /* FurryFriendsView.swift in Sources */,
-				B04CADF72B943EBB0092909C /* MetalModifiers.swift in Sources */,
-				B04CADF42B9439C60092909C /* LDCGlowView.swift in Sources */,
+				B04CADF42B9439C60092909C /* LEDGlowView.swift in Sources */,
 				B072488A2B930F5E00B12B0E /* KeyboardLayout2.swift in Sources */,
 				B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */,
 				B0A7DE072B929B6F00B6D6A5 /* Enumerations.swift in Sources */,
@@ -419,6 +395,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KBDCalc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "KBD Calc";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -428,6 +406,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -457,6 +436,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KBDCalc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "KBD Calc";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -466,6 +447,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
