@@ -5,6 +5,13 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Seven Segment.ttf</string>
+		<string>routed-gothic.ttf</string>
+		<string>DSEG7Classic-Regular.ttf</string>
+		<string>GTMaru-Regular.otf</string>
+		<string>GT-Maru-Mono-Regular.otf</string>
+		<string>GT-Maru-Mono-Medium.otf</string>
+		<string>OpenGorton-Regular.otf</string>
+		<string>OpenGorton-Bold.otf</string>
 	</array>
 </dict>
 </plist>

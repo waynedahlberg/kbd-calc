@@ -43,9 +43,9 @@ struct ButtonView: View {
 
 #Preview {
   VStack {
-    ButtonView(calcButton: .negative, fgColor: .foregroundDigits, bgColor: .secondaryBG)
+    ButtonView(calcButton: .seven, fgColor: .foregroundDigits, bgColor: .secondaryBG)
     
-    ButtonView(calcButton: .undo, fgColor: .foregroundDigits, bgColor: .secondaryBG)
+    ButtonView(calcButton: .delete, fgColor: .foregroundDigits, bgColor: .secondaryBG)
     
     ButtonView(calcButton: .divide, fgColor: .foregroundDigits, bgColor: .secondaryBG)
     

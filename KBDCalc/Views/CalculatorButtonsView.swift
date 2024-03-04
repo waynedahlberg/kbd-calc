@@ -27,8 +27,8 @@ struct CalculatorButtonsView: View {
   let buttonData: [RowOfCalculatorButtonsModel] = [
     RowOfCalculatorButtonsModel(row: [
 //      CalcButtonModel(calcButton: .clear, color: .foregroundTopButton),       // A/C        Clear
-      CalcButtonModel(calcButton: .negative, color: .foregroundTopButton),    // Negative   +/-
-      CalcButtonModel(calcButton: .percent, color: .foregroundTopButton),     // Percent    %
+      CalcButtonModel(calcButton: .clear, color: .foregroundTopButton),    // Negative   +/-
+      CalcButtonModel(calcButton: .from, color: .foregroundTopButton),     // Percent    %
       CalcButtonModel(calcButton: .divide, color: .foregroundRightButton)     // Divide     /
     ]),
     RowOfCalculatorButtonsModel(row: [
@@ -50,7 +50,7 @@ struct CalculatorButtonsView: View {
       CalcButtonModel(calcButton: .add),                                      // Add        +
     ]),
     RowOfCalculatorButtonsModel(row: [
-      CalcButtonModel(calcButton: .undo),                                     // Undo       ←
+      CalcButtonModel(calcButton: .delete),                                     // Undo       ←
       CalcButtonModel(calcButton: .zero),                                     // Zero       0
       CalcButtonModel(calcButton: .decimal),                                  // Decimal    .
       CalcButtonModel(calcButton: .equal),                                    // Equals     =
@@ -86,17 +86,17 @@ struct CalculatorButtonsView: View {
 //      currentComputation = ""
 //      mainResult = "0"
       
-    case .equal, .negative:
-      if !currentComputation.isEmpty {
-        if !lastCharacterIsAnOperator(str: currentComputation) {
-          let sign = calcButton == .negative ? -1.0 : 1.0
-          mainResult = formatResult(val: sign * calculateResults())
-          
-          if calcButton == .negative {
-            currentComputation = mainResult
-          }
-        }
-      }
+//    case .equal:
+//      if !currentComputation.isEmpty {
+//        if !lastCharacterIsAnOperator(str: currentComputation) {
+//          let sign = calcButton == .negative ? -1.0 : 1.0
+//          mainResult = formatResult(val: sign * calculateResults())
+//          
+//          if calcButton == .negative {
+//            currentComputation = mainResult
+//          }
+//        }
+//      }
       
     case .decimal:
       if let lastOccurenceOfDecimal = currentComputation.lastIndex(of: ".") {
@@ -122,17 +122,17 @@ struct CalculatorButtonsView: View {
         }
       }
       
-    case .percent:
-      if lastCharIsDigit(str: currentComputation) {
-        appendToCurrentComputation(calcButton: calcButton)
-      }
+//    case .percent:
+//      if lastCharIsDigit(str: currentComputation) {
+//        appendToCurrentComputation(calcButton: calcButton)
+//      }
       
     case .add, .subtract, .multiply, .divide:
       if lastCharIsDigit(str: currentComputation) {
         appendToCurrentComputation(calcButton: calcButton)
       }
       
-    case .undo:
+    case .delete:
       currentComputation = String(currentComputation.dropLast())
       
     default:

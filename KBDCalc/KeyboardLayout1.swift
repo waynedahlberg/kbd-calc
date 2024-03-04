@@ -17,10 +17,10 @@ struct KeyboardLayout1: View {
   var body: some View {
     VStack(spacing: 2) {
       HStack(spacing:2) {
-        NumeralButton(fgColor: .white, bgColor: .gray, char: CalcButton.negative.rawValue)
-        NumeralButton(fgColor: .white, bgColor: .gray, char: CalcButton.openParen.rawValue)
-        NumeralButton(fgColor: .white, bgColor: .gray, char: CalcButton.closeParen.rawValue)
-        NumeralButton(fgColor: .white, bgColor: .gray, char: CalcButton.star.rawValue)
+        NumeralButton(fgColor: .white, bgColor: .gray, char: CalcButton.five.rawValue)
+        NumeralButton(fgColor: .white, bgColor: .gray, char: CalcButton.six.rawValue)
+        NumeralButton(fgColor: .white, bgColor: .gray, char: CalcButton.seven.rawValue)
+        NumeralButton(fgColor: .white, bgColor: .gray, char: CalcButton.multiply.rawValue)
       }
       HStack(spacing:2) {
         NumeralButton(fgColor: .black, bgColor: .white, char: "7")
