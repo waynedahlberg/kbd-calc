@@ -24,7 +24,7 @@ struct OP1ButtonView: View {
   
   var body: some View {
     GeometryReader { proxy in
-      ZStack {
+      ZStack {        
         RoundedRectangle(cornerRadius: 7.04, style: .continuous)
           .stroke(LinearGradient(colors: [
             Color(hex: "#F4F2F0"), Color(hex: "8A8587")

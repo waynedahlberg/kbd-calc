@@ -11,7 +11,7 @@ struct SquareKeysTestView: View {
   @Environment(\.horizontalSizeClass) var horizontalSizeClass
   @Environment(\.verticalSizeClass) var verticalSizeClass
   
-  let keypadMargin: CGFloat = 20
+  let keypadMargin: CGFloat = 16
   let gridSpacing: CGFloat = 4
   
   let svgData: [[String]] = [
@@ -58,18 +58,19 @@ struct SquareKeysTestView: View {
             RoundedRectangle(cornerRadius: 13.33, style: .continuous)
               .fill(.black)
               .ignoresSafeArea(edges: [.top, .bottom])
-              .overlay {
-                GeometryReader { geo in
-                  Text("\(String(format: "%.0f", geo.size.width))" + "  ✕  " + "\(String(format: "%.0f", geo.size.height))")
-                    .position(x: geo.size.width / 2, y: geo.size.height / 2)
-                }
-              }
+//              .overlay {
+//                GeometryReader { geo in
+//                  // Just for testing, prints out the dimensions of the Geometry Proxy
+//                  Text("\(String(format: "%.0f", geo.size.width))" + "  ✕  " + "\(String(format: "%.0f", geo.size.height))")
+//                    .position(x: geo.size.width / 2, y: geo.size.height / 2)
+//                }
+//              }
             VStack {
               Spacer()
               LEDGlowView(
-                largeFontSize: UIDevice.isTablet ? 64 : 32,
+                largeFontSize: UIDevice.isTablet ? 64 : 44,
                 smallFontSize: UIDevice.isTablet ? 24 : 16)
-              .aspectRatio(2.19, contentMode: .fit)
+              .aspectRatio(2.32, contentMode: .fit)
               .frame(width: proxy.size.width)
             }
           }
@@ -86,12 +87,12 @@ struct SquareKeysTestView: View {
                   print("b")
                   Haptics.shared.play(.light)
                 }, label: {
-                  OP1ButtonView(charString: character, 
+                  OP1ButtonView(charString: character,
                                 charColor: charColor,
                                 keyColor: keyColor)
-                    .frame(width: horizontalSizeClass == .compact ? (proxy.size.width - keypadMargin) / 4 : 128,
-                           height: horizontalSizeClass == .compact ? (proxy.size.width - keypadMargin) / 4 : 128,
-                           alignment: .center)
+                  .frame(width: horizontalSizeClass == .compact ? (proxy.size.width - keypadMargin) / 4 : 128,
+                         height: horizontalSizeClass == .compact ? (proxy.size.width - keypadMargin) / 4 : 128,
+                         alignment: .center)
                 })
                 .buttonStyle(CalcButtonStyle())
               }

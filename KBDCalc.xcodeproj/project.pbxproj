@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B04CADF22B94303C0092909C /* LCDGlow.metal in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF12B94303C0092909C /* LCDGlow.metal */; };
 		B04CADF42B9439C60092909C /* LEDGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF32B9439C60092909C /* LEDGlowView.swift */; };
-		B04CAE032B944B3D0092909C /* Seven Segment.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B04CAE022B944B3D0092909C /* Seven Segment.ttf */; };
 		B04CAE072B9574270092909C /* OP1ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE062B9574270092909C /* OP1ButtonView.swift */; };
 		B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE082B95749D0092909C /* Extension+Color.swift */; };
 		B04CAE0D2B96372B0092909C /* CalcButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE0C2B96372B0092909C /* CalcButtonStyle.swift */; };
@@ -28,37 +27,15 @@
 		B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */; };
 		B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */; };
 		B0A7DE152B92BC1D00B6D6A5 /* KeyboardLayout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE142B92BC1D00B6D6A5 /* KeyboardLayout1.swift */; };
-		B0FAD6F02B9682B50091C081 /* routed-gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6EF2B9682B50091C081 /* routed-gothic.ttf */; };
-		B0FAD6F22B9682C80091C081 /* routed-gothic-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6F12B9682C80091C081 /* routed-gothic-italic.ttf */; };
-		B0FAD6F42B9683040091C081 /* JetBrainsMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6F32B9683040091C081 /* JetBrainsMono-Light.ttf */; };
-		B0FAD6F62B96832A0091C081 /* TicketMonoOT.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6F52B96832A0091C081 /* TicketMonoOT.otf */; };
-		B0FAD6F82B9683870091C081 /* ThreeSix10Pro-090Medi.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6F72B9683870091C081 /* ThreeSix10Pro-090Medi.otf */; };
-		B0FAD6FA2B9683B40091C081 /* MagdaCleanMonoOT.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6F92B9683B40091C081 /* MagdaCleanMonoOT.otf */; };
-		B0FAD6FC2B9683CB0091C081 /* IsonormMonospacedPro.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6FB2B9683CB0091C081 /* IsonormMonospacedPro.otf */; };
-		B0FAD6FE2B9683EC0091C081 /* KosugiMaru-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6FD2B9683EC0091C081 /* KosugiMaru-Regular.ttf */; };
-		B0FAD7002B9684090091C081 /* GT-Maru-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD6FF2B9684090091C081 /* GT-Maru-Regular.otf */; };
-		B0FAD7022B96870E0091C081 /* DSEG7Classic-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7012B96870E0091C081 /* DSEG7Classic-LightItalic.ttf */; };
-		B0FAD7042B9687160091C081 /* DSEG7Classic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7032B9687160091C081 /* DSEG7Classic-Bold.ttf */; };
-		B0FAD7062B9687210091C081 /* DSEG7Classic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7052B9687210091C081 /* DSEG7Classic-Light.ttf */; };
-		B0FAD7082B9687290091C081 /* DSEG7Classic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7072B9687290091C081 /* DSEG7Classic-Italic.ttf */; };
-		B0FAD70A2B9687310091C081 /* DSEG7Classic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7092B9687310091C081 /* DSEG7Classic-BoldItalic.ttf */; };
 		B0FAD70C2B9687390091C081 /* DSEG7Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD70B2B9687390091C081 /* DSEG7Classic-Regular.ttf */; };
-		B0FAD7132B96874B0091C081 /* DSEG7ClassicMini-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD70D2B96874B0091C081 /* DSEG7ClassicMini-Light.ttf */; };
-		B0FAD7142B96874B0091C081 /* DSEG7ClassicMini-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD70E2B96874B0091C081 /* DSEG7ClassicMini-LightItalic.ttf */; };
-		B0FAD7152B96874B0091C081 /* DSEG7ClassicMini-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD70F2B96874B0091C081 /* DSEG7ClassicMini-Regular.ttf */; };
-		B0FAD7162B96874B0091C081 /* DSEG7ClassicMini-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7102B96874B0091C081 /* DSEG7ClassicMini-Italic.ttf */; };
-		B0FAD7172B96874B0091C081 /* DSEG7ClassicMini-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7112B96874B0091C081 /* DSEG7ClassicMini-BoldItalic.ttf */; };
-		B0FAD7182B96874B0091C081 /* DSEG7ClassicMini-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7122B96874B0091C081 /* DSEG7ClassicMini-Bold.ttf */; };
-		B0FAD71A2B9690AE0091C081 /* GT-Maru-Mono-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD7192B9690AE0091C081 /* GT-Maru-Mono-Regular.otf */; };
-		B0FAD71C2B96910D0091C081 /* GT-Maru-Mono-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD71B2B96910D0091C081 /* GT-Maru-Mono-Medium.otf */; };
-		B0FAD71E2B9692DC0091C081 /* OpenGorton-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD71D2B9692DC0091C081 /* OpenGorton-Bold.otf */; };
-		B0FAD7202B9692E50091C081 /* OpenGorton-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD71F2B9692E50091C081 /* OpenGorton-Regular.otf */; };
+		B0FAD7252B97A4110091C081 /* HexGrid in Frameworks */ = {isa = PBXBuildFile; productRef = B0FAD7242B97A4110091C081 /* HexGrid */; };
+		B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7332B97B4380091C081 /* HexagonGridView.swift */; };
+		B0FAD7362B97B51F0091C081 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7352B97B51F0091C081 /* Hexagon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B04CADF12B94303C0092909C /* LCDGlow.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = LCDGlow.metal; sourceTree = "<group>"; };
 		B04CADF32B9439C60092909C /* LEDGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDGlowView.swift; sourceTree = "<group>"; };
-		B04CAE022B944B3D0092909C /* Seven Segment.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seven Segment.ttf"; sourceTree = "<group>"; };
 		B04CAE042B944B7D0092909C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B04CAE062B9574270092909C /* OP1ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OP1ButtonView.swift; sourceTree = "<group>"; };
 		B04CAE082B95749D0092909C /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
@@ -81,31 +58,9 @@
 		B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalculator.swift; sourceTree = "<group>"; };
 		B0A7DE142B92BC1D00B6D6A5 /* KeyboardLayout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout1.swift; sourceTree = "<group>"; };
-		B0FAD6EF2B9682B50091C081 /* routed-gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "routed-gothic.ttf"; sourceTree = "<group>"; };
-		B0FAD6F12B9682C80091C081 /* routed-gothic-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "routed-gothic-italic.ttf"; sourceTree = "<group>"; };
-		B0FAD6F32B9683040091C081 /* JetBrainsMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Light.ttf"; sourceTree = "<group>"; };
-		B0FAD6F52B96832A0091C081 /* TicketMonoOT.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TicketMonoOT.otf; sourceTree = "<group>"; };
-		B0FAD6F72B9683870091C081 /* ThreeSix10Pro-090Medi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeSix10Pro-090Medi.otf"; sourceTree = "<group>"; };
-		B0FAD6F92B9683B40091C081 /* MagdaCleanMonoOT.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MagdaCleanMonoOT.otf; sourceTree = "<group>"; };
-		B0FAD6FB2B9683CB0091C081 /* IsonormMonospacedPro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IsonormMonospacedPro.otf; sourceTree = "<group>"; };
-		B0FAD6FD2B9683EC0091C081 /* KosugiMaru-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KosugiMaru-Regular.ttf"; sourceTree = "<group>"; };
-		B0FAD6FF2B9684090091C081 /* GT-Maru-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Maru-Regular.otf"; sourceTree = "<group>"; };
-		B0FAD7012B96870E0091C081 /* DSEG7Classic-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-LightItalic.ttf"; sourceTree = "<group>"; };
-		B0FAD7032B9687160091C081 /* DSEG7Classic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Bold.ttf"; sourceTree = "<group>"; };
-		B0FAD7052B9687210091C081 /* DSEG7Classic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Light.ttf"; sourceTree = "<group>"; };
-		B0FAD7072B9687290091C081 /* DSEG7Classic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Italic.ttf"; sourceTree = "<group>"; };
-		B0FAD7092B9687310091C081 /* DSEG7Classic-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-BoldItalic.ttf"; sourceTree = "<group>"; };
 		B0FAD70B2B9687390091C081 /* DSEG7Classic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Regular.ttf"; sourceTree = "<group>"; };
-		B0FAD70D2B96874B0091C081 /* DSEG7ClassicMini-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Light.ttf"; sourceTree = "<group>"; };
-		B0FAD70E2B96874B0091C081 /* DSEG7ClassicMini-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-LightItalic.ttf"; sourceTree = "<group>"; };
-		B0FAD70F2B96874B0091C081 /* DSEG7ClassicMini-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Regular.ttf"; sourceTree = "<group>"; };
-		B0FAD7102B96874B0091C081 /* DSEG7ClassicMini-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Italic.ttf"; sourceTree = "<group>"; };
-		B0FAD7112B96874B0091C081 /* DSEG7ClassicMini-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B0FAD7122B96874B0091C081 /* DSEG7ClassicMini-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Bold.ttf"; sourceTree = "<group>"; };
-		B0FAD7192B9690AE0091C081 /* GT-Maru-Mono-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Maru-Mono-Regular.otf"; sourceTree = "<group>"; };
-		B0FAD71B2B96910D0091C081 /* GT-Maru-Mono-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Maru-Mono-Medium.otf"; sourceTree = "<group>"; };
-		B0FAD71D2B9692DC0091C081 /* OpenGorton-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenGorton-Bold.otf"; sourceTree = "<group>"; };
-		B0FAD71F2B9692E50091C081 /* OpenGorton-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenGorton-Regular.otf"; sourceTree = "<group>"; };
+		B0FAD7332B97B4380091C081 /* HexagonGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonGridView.swift; sourceTree = "<group>"; };
+		B0FAD7352B97B51F0091C081 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,19 +68,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FAD7252B97A4110091C081 /* HexGrid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B04CADF52B943E9F0092909C /* Metal */ = {
+		B04CADF52B943E9F0092909C /* LED Display */ = {
 			isa = PBXGroup;
 			children = (
 				B04CADF12B94303C0092909C /* LCDGlow.metal */,
 				B04CADF32B9439C60092909C /* LEDGlowView.swift */,
+				B0FAD7332B97B4380091C081 /* HexagonGridView.swift */,
+				B0FAD7352B97B51F0091C081 /* Hexagon.swift */,
 			);
-			name = Metal;
+			name = "LED Display";
 			sourceTree = "<group>";
 		};
 		B04CADFE2B944B170092909C /* Resources */ = {
@@ -139,32 +97,7 @@
 		B04CADFF2B944B210092909C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				B0FAD71F2B9692E50091C081 /* OpenGorton-Regular.otf */,
-				B0FAD71D2B9692DC0091C081 /* OpenGorton-Bold.otf */,
-				B0FAD6EF2B9682B50091C081 /* routed-gothic.ttf */,
-				B0FAD6FD2B9683EC0091C081 /* KosugiMaru-Regular.ttf */,
-				B04CAE022B944B3D0092909C /* Seven Segment.ttf */,
-				B0FAD6F92B9683B40091C081 /* MagdaCleanMonoOT.otf */,
-				B0FAD6F72B9683870091C081 /* ThreeSix10Pro-090Medi.otf */,
-				B0FAD6F52B96832A0091C081 /* TicketMonoOT.otf */,
-				B0FAD6F32B9683040091C081 /* JetBrainsMono-Light.ttf */,
-				B0FAD6F12B9682C80091C081 /* routed-gothic-italic.ttf */,
-				B0FAD6FF2B9684090091C081 /* GT-Maru-Regular.otf */,
-				B0FAD7192B9690AE0091C081 /* GT-Maru-Mono-Regular.otf */,
-				B0FAD71B2B96910D0091C081 /* GT-Maru-Mono-Medium.otf */,
-				B0FAD7032B9687160091C081 /* DSEG7Classic-Bold.ttf */,
-				B0FAD7092B9687310091C081 /* DSEG7Classic-BoldItalic.ttf */,
-				B0FAD7072B9687290091C081 /* DSEG7Classic-Italic.ttf */,
-				B0FAD7052B9687210091C081 /* DSEG7Classic-Light.ttf */,
-				B0FAD7012B96870E0091C081 /* DSEG7Classic-LightItalic.ttf */,
 				B0FAD70B2B9687390091C081 /* DSEG7Classic-Regular.ttf */,
-				B0FAD6FB2B9683CB0091C081 /* IsonormMonospacedPro.otf */,
-				B0FAD7122B96874B0091C081 /* DSEG7ClassicMini-Bold.ttf */,
-				B0FAD7112B96874B0091C081 /* DSEG7ClassicMini-BoldItalic.ttf */,
-				B0FAD7102B96874B0091C081 /* DSEG7ClassicMini-Italic.ttf */,
-				B0FAD70D2B96874B0091C081 /* DSEG7ClassicMini-Light.ttf */,
-				B0FAD70E2B96874B0091C081 /* DSEG7ClassicMini-LightItalic.ttf */,
-				B0FAD70F2B96874B0091C081 /* DSEG7ClassicMini-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -198,7 +131,7 @@
 			children = (
 				B04CAE042B944B7D0092909C /* Info.plist */,
 				B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */,
-				B04CADF52B943E9F0092909C /* Metal */,
+				B04CADF52B943E9F0092909C /* LED Display */,
 				B0A7DE132B92BC0B00B6D6A5 /* sandbox */,
 				B0A7DDFC2B92969C00B6D6A5 /* Extensions */,
 				B0A7DDFB2B92969500B6D6A5 /* Constants */,
@@ -279,6 +212,9 @@
 			dependencies = (
 			);
 			name = KBDCalc;
+			packageProductDependencies = (
+				B0FAD7242B97A4110091C081 /* HexGrid */,
+			);
 			productName = KBDCalc;
 			productReference = B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */;
 			productType = "com.apple.product-type.application";
@@ -307,6 +243,9 @@
 				Base,
 			);
 			mainGroup = B0A7DDDD2B92710C00B6D6A5;
+			packageReferences = (
+				B0FAD7232B97A4110091C081 /* XCRemoteSwiftPackageReference "hex-grid" */,
+			);
 			productRefGroup = B0A7DDE72B92710C00B6D6A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -321,34 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FAD71E2B9692DC0091C081 /* OpenGorton-Bold.otf in Resources */,
 				B0A7DDF22B92710D00B6D6A5 /* Preview Assets.xcassets in Resources */,
-				B0FAD6FA2B9683B40091C081 /* MagdaCleanMonoOT.otf in Resources */,
-				B0FAD7082B9687290091C081 /* DSEG7Classic-Italic.ttf in Resources */,
-				B0FAD6FE2B9683EC0091C081 /* KosugiMaru-Regular.ttf in Resources */,
-				B0FAD71A2B9690AE0091C081 /* GT-Maru-Mono-Regular.otf in Resources */,
-				B0FAD7172B96874B0091C081 /* DSEG7ClassicMini-BoldItalic.ttf in Resources */,
-				B0FAD70A2B9687310091C081 /* DSEG7Classic-BoldItalic.ttf in Resources */,
-				B0FAD6F22B9682C80091C081 /* routed-gothic-italic.ttf in Resources */,
-				B04CAE032B944B3D0092909C /* Seven Segment.ttf in Resources */,
-				B0FAD7042B9687160091C081 /* DSEG7Classic-Bold.ttf in Resources */,
-				B0FAD6FC2B9683CB0091C081 /* IsonormMonospacedPro.otf in Resources */,
 				B0FAD70C2B9687390091C081 /* DSEG7Classic-Regular.ttf in Resources */,
-				B0FAD7002B9684090091C081 /* GT-Maru-Regular.otf in Resources */,
-				B0FAD7182B96874B0091C081 /* DSEG7ClassicMini-Bold.ttf in Resources */,
-				B0FAD6F82B9683870091C081 /* ThreeSix10Pro-090Medi.otf in Resources */,
-				B0FAD7062B9687210091C081 /* DSEG7Classic-Light.ttf in Resources */,
-				B0FAD6F42B9683040091C081 /* JetBrainsMono-Light.ttf in Resources */,
 				B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */,
-				B0FAD6F62B96832A0091C081 /* TicketMonoOT.otf in Resources */,
-				B0FAD7152B96874B0091C081 /* DSEG7ClassicMini-Regular.ttf in Resources */,
-				B0FAD7142B96874B0091C081 /* DSEG7ClassicMini-LightItalic.ttf in Resources */,
-				B0FAD71C2B96910D0091C081 /* GT-Maru-Mono-Medium.otf in Resources */,
-				B0FAD6F02B9682B50091C081 /* routed-gothic.ttf in Resources */,
-				B0FAD7162B96874B0091C081 /* DSEG7ClassicMini-Italic.ttf in Resources */,
-				B0FAD7022B96870E0091C081 /* DSEG7Classic-LightItalic.ttf in Resources */,
-				B0FAD7132B96874B0091C081 /* DSEG7ClassicMini-Light.ttf in Resources */,
-				B0FAD7202B9692E50091C081 /* OpenGorton-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,10 +282,12 @@
 				B0A7DE012B9297F500B6D6A5 /* iPadSupport.swift in Sources */,
 				B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */,
 				B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */,
+				B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */,
 				B04CAE072B9574270092909C /* OP1ButtonView.swift in Sources */,
 				B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */,
 				B0A7DE152B92BC1D00B6D6A5 /* KeyboardLayout1.swift in Sources */,
 				B04CADF22B94303C0092909C /* LCDGlow.metal in Sources */,
+				B0FAD7362B97B51F0091C081 /* Hexagon.swift in Sources */,
 				B04CADF42B9439C60092909C /* LEDGlowView.swift in Sources */,
 				B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */,
 				B04CAE0F2B9639730092909C /* Haptics.swift in Sources */,
@@ -601,6 +517,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0FAD7232B97A4110091C081 /* XCRemoteSwiftPackageReference "hex-grid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fananek/hex-grid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0FAD7242B97A4110091C081 /* HexGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0FAD7232B97A4110091C081 /* XCRemoteSwiftPackageReference "hex-grid" */;
+			productName = HexGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B0A7DDDE2B92710C00B6D6A5 /* Project object */;
 }

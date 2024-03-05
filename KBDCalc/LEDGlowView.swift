@@ -12,10 +12,10 @@ struct LEDGlowView: View {
   var smallFontSize: CGFloat
   
   let screenGradient2 = LinearGradient(stops: [
-    Gradient.Stop(color: Color.black.opacity(0.60), location: 0.0),
+    Gradient.Stop(color: Color.black.opacity(0.3), location: 0.0),
     Gradient.Stop(color: Color(hex: "#8295EF").opacity(0.10), location: 0.4),
-    Gradient.Stop(color: Color(hex: "#949FD2").opacity(0.16), location: 0.699),
-    Gradient.Stop(color: Color.clear, location: 0.70),
+    Gradient.Stop(color: Color(hex: "#949FD2").opacity(0.10), location: 0.859),
+    Gradient.Stop(color: Color.clear, location: 0.89),
     Gradient.Stop(color: Color.clear, location: 1.0)
   ],
                                        startPoint: .top,
@@ -35,29 +35,39 @@ struct LEDGlowView: View {
         Spacer()
         HStack {
           Spacer()
-          Text("123 ✕ 321 ÷ 16")
+          Text("source at top")
             .foregroundStyle(.white)
             .font(.custom("DSEG7Classic-Regular", size: smallFontSize))
-            .glow(color: .ledblue, radius: 13, opacity: 0.5)
+            .glow(color: .ledblue, radius: 24, opacity: 0.85)
         }
+        
         HStack {
           Spacer()
-          Text("3.141592")
+          ZStack {
+            Text("8888.")
+              .foregroundStyle(.white.opacity(0.1))
+              .font(.custom("DSEG7Classic-Regular", size: largeFontSize))
+            Text("3234.")
+              .foregroundStyle(.white)
+              .font(.custom("DSEG7Classic-Regular", size: largeFontSize))
+              .glow(color: .ledblue, radius: 13, opacity: 0.5)
+          }
         }
-        .foregroundStyle(.white)
-        .font(.custom("DSEG7Classic-Regular", size: largeFontSize))
-        .glow(color: .ledblue, radius: 13, opacity: 0.5)
       }
       .padding(.trailing, 16.0)
       .padding(.bottom, 20)
-      .background {
-        RoundedRectangle(cornerRadius: 7.33, style: .continuous)
-          .fill(screenGradient2)
-          .stroke(.coolBlue.opacity(0.3), lineWidth: 1.0)
-          .padding(4)
+      .overlay {
+        HexagonGridView(rows: 60, columns: 108, hexagonSize: 4, strokeColor: .black)
+          .blendMode(.sourceAtop)
+          .opacity(0.5)
       }
+      //      .background {
+      //        RoundedRectangle(cornerRadius: 7.33, style: .continuous)
+      //          .fill(screenGradient2)
+      //          .stroke(.coolBlue.opacity(0.25), lineWidth: 1.0)
+      //          .padding(4)
+      //      }
     }
-    
   }
 }
 
