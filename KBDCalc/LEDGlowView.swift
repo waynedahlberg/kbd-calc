@@ -35,16 +35,21 @@ struct LEDGlowView: View {
         Spacer()
         HStack {
           Spacer()
-          Text("source at top")
-            .foregroundStyle(.white)
-            .font(.custom("DSEG7Classic-Regular", size: smallFontSize))
-            .glow(color: .ledblue, radius: 24, opacity: 0.85)
+          ZStack(alignment: .trailing) {
+            Text("888888888888888888888888")
+              .foregroundStyle(.white.opacity(0.1))
+              .font(.custom("DSEG7Classic-Regular", size: smallFontSize))
+            Text("source at top")
+              .foregroundStyle(.white)
+              .font(.custom("DSEG7Classic-Regular", size: smallFontSize))
+              .glow(color: .ledblue, radius: 24, opacity: 0.85)
+          }
         }
         
         HStack {
           Spacer()
-          ZStack {
-            Text("8888.")
+          ZStack(alignment: .trailing) {
+            Text("888888888.")
               .foregroundStyle(.white.opacity(0.1))
               .font(.custom("DSEG7Classic-Regular", size: largeFontSize))
             Text("3234.")
