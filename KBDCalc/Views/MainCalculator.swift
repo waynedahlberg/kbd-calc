@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MathParser
 
 struct MainCalculator: View {
   @State var lightMode: Bool = true

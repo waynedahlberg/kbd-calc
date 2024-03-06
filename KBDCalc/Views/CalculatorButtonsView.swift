@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MathParser
 
 struct CalcButtonModel: Identifiable {
   let id = UUID()
@@ -145,41 +146,43 @@ struct CalculatorButtonsView: View {
   func calculateResults() -> Double {
     let visibleWorkings: String = currentComputation
     var workings = visibleWorkings.replacingOccurrences(of: "%", with: "*.01")
-//    workings = workings.replacingOccurrences(of: multiplySymbol, with: "*")
-//    workings = workings.replacingOccurrences(of: divisionSymbol, with: "/")
-//  
-    
-    workings = "25/10"
-    // if "35." will be replaced by "35.0"
+    workings = workings.replacingOccurrences(of: multiplySymbol, with: "*")
+    workings = workings.replacingOccurrences(of: divisionSymbol, with: "/")
+//  if "35." will be replaced by "35.0"
     if getLastChar(str: visibleWorkings) == "." {
       workings += "0"
     }
     
-    // manual evaluation WORKS!
-    let numerator = 25.0
-    let denominator = 10.0
-    let manualResult = numerator / denominator
-    print("manual division result: \(manualResult)")
+//    let expr = NSExpression(format: workings)
+//    
+//    let exprValue = expr.expressionValue(with: nil, context: nil) as! Double
+//    print("value of expr: \(expr)")
+//    print("value of exprValue: \(exprValue)")
+//    return exprValue
     
-    // explicit testing
-    let explicitWorkings = "25.0 / 10.0"
-    let explicitExpr = NSExpression(format: explicitWorkings)
-    let explicitExprValue = explicitExpr.expressionValue(with: nil, context: nil) as! Double
-    print("Explicit result with float: \(explicitExprValue)")
+    // DD version
+//    do {
+//      print("DD result: \(String(describing: try! workings.evaluate().formatted(withDecimalPlaces: 7)))")
+//      return try workings.evaluate()
+//    } catch {
+//      print("DD Eval Error: \(error.localizedDescription)")
+//      return 0.0
+//    }
     
-    
-    // keypoint
-    let expr = NSExpression(format: workings)
-    
-    let exprValue = expr.expressionValue(with: nil, context: nil) as! Double
-    print("value of expr: \(expr)")
-    print("value of exprValue: \(exprValue)")
-    return exprValue
+    do {
+      let double = try workings.evaluate()
+      return double.rounded(toPlaces: 7)
+    } catch {
+      print("DD eval fail: \(error.localizedDescription)")
+      return 0.0
+    }
   }
   
   func appendToCurrentComputation(calcButton: CalcButton) {
     currentComputation += calcButton.rawValue
   }
+  
+  
 }
 
 #Preview {

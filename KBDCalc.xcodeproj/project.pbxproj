@@ -13,6 +13,8 @@
 		B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE082B95749D0092909C /* Extension+Color.swift */; };
 		B04CAE0D2B96372B0092909C /* CalcButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE0C2B96372B0092909C /* CalcButtonStyle.swift */; };
 		B04CAE0F2B9639730092909C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE0E2B9639730092909C /* Haptics.swift */; };
+		B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3092B99025E008FB84F /* Extension+Double.swift */; };
+		B069E30C2B99093A008FB84F /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30B2B99093A008FB84F /* Extension+String.swift */; };
 		B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */; };
 		B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */; };
 		B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */; };
@@ -32,6 +34,7 @@
 		B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7332B97B4380091C081 /* HexagonGridView.swift */; };
 		B0FAD7362B97B51F0091C081 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7352B97B51F0091C081 /* Hexagon.swift */; };
 		B0FAD75A2B984BE30091C081 /* ExpressionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7592B984BE30091C081 /* ExpressionTestView.swift */; };
+		B0FAD7612B98F4830091C081 /* MathParser in Frameworks */ = {isa = PBXBuildFile; productRef = B0FAD7602B98F4830091C081 /* MathParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,8 @@
 		B04CAE082B95749D0092909C /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
 		B04CAE0C2B96372B0092909C /* CalcButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButtonStyle.swift; sourceTree = "<group>"; };
 		B04CAE0E2B9639730092909C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		B069E3092B99025E008FB84F /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
+		B069E30B2B99093A008FB84F /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		B0924B0A2B93DFC8001DC0BF /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 		B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareKeysTestView.swift; sourceTree = "<group>"; };
 		B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0FAD7252B97A4110091C081 /* HexGrid in Frameworks */,
+				B0FAD7612B98F4830091C081 /* MathParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +189,8 @@
 				B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */,
 				B04CAE082B95749D0092909C /* Extension+Color.swift */,
 				B04CAE0E2B9639730092909C /* Haptics.swift */,
+				B069E3092B99025E008FB84F /* Extension+Double.swift */,
+				B069E30B2B99093A008FB84F /* Extension+String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			name = KBDCalc;
 			packageProductDependencies = (
 				B0FAD7242B97A4110091C081 /* HexGrid */,
+				B0FAD7602B98F4830091C081 /* MathParser */,
 			);
 			productName = KBDCalc;
 			productReference = B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */;
@@ -250,6 +259,7 @@
 			mainGroup = B0A7DDDD2B92710C00B6D6A5;
 			packageReferences = (
 				B0FAD7232B97A4110091C081 /* XCRemoteSwiftPackageReference "hex-grid" */,
+				B0FAD75F2B98F4830091C081 /* XCRemoteSwiftPackageReference "DDMathParser" */,
 			);
 			productRefGroup = B0A7DDE72B92710C00B6D6A5 /* Products */;
 			projectDirPath = "";
@@ -290,8 +300,10 @@
 				B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */,
 				B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */,
 				B04CAE072B9574270092909C /* OP1ButtonView.swift in Sources */,
+				B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */,
 				B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */,
 				B0A7DE152B92BC1D00B6D6A5 /* KeyboardLayout1.swift in Sources */,
+				B069E30C2B99093A008FB84F /* Extension+String.swift in Sources */,
 				B04CADF22B94303C0092909C /* LCDGlow.metal in Sources */,
 				B0FAD7362B97B51F0091C081 /* Hexagon.swift in Sources */,
 				B04CADF42B9439C60092909C /* LEDGlowView.swift in Sources */,
@@ -533,6 +545,14 @@
 				minimumVersion = 0.4.11;
 			};
 		};
+		B0FAD75F2B98F4830091C081 /* XCRemoteSwiftPackageReference "DDMathParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davedelong/DDMathParser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -540,6 +560,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B0FAD7232B97A4110091C081 /* XCRemoteSwiftPackageReference "hex-grid" */;
 			productName = HexGrid;
+		};
+		B0FAD7602B98F4830091C081 /* MathParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0FAD75F2B98F4830091C081 /* XCRemoteSwiftPackageReference "DDMathParser" */;
+			productName = MathParser;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
