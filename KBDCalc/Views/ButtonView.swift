@@ -14,22 +14,28 @@ struct ButtonView: View {
   let fgColor: Color
   let bgColor: Color
   
+  // For SF Symbols
   var systemImage: String? {
     let value = calcButton.rawValue
-    return value.contains("IMAGE") ? value.replacingOccurrences(of: "IMAGE", with: "") : nil
+    return value.contains("SVG") ? value.replacingOccurrences(of: "SVG", with: "") : nil
+  }
+  
+  // For SVG images
+  var svgImage: String? {
+    let value = calcButton.displayValue
+    return value.contains("SVG") ? value.replacingOccurrences(of: "SVG", with: "") : nil
   }
   
   var text: String? {
     let value = calcButton.rawValue
-    return value.contains("IMAGE") ? nil : value
+    return value.contains("SVG") ? nil : value
   }
     
   let buttonDim: CGFloat = UIDevice.isTablet ? UIScreen.main.bounds.width / 5 : UIScreen.main.bounds.width / 5
   
   var body: some View {
     ZStack {
-      Text(text ?? "")
-      Image(systemName: systemImage ?? "")
+      Image("\(String(describing: svgImage ?? ""))")
     }
     .font(UIDevice.isTablet ? .largeTitle : .title2)
     .fontWeight(UIDevice.isTablet ? .bold : .semibold)
@@ -43,9 +49,9 @@ struct ButtonView: View {
 
 #Preview {
   VStack {
-    ButtonView(calcButton: .seven, fgColor: .foregroundDigits, bgColor: .secondaryBG)
+    ButtonView(calcButton: .decimal, fgColor: .foregroundDigits, bgColor: .secondaryBG)
     
-    ButtonView(calcButton: .delete, fgColor: .foregroundDigits, bgColor: .secondaryBG)
+    ButtonView(calcButton: .undo, fgColor: .foregroundDigits, bgColor: .secondaryBG)
     
     ButtonView(calcButton: .divide, fgColor: .foregroundDigits, bgColor: .secondaryBG)
     

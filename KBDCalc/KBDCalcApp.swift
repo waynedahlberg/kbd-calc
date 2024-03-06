@@ -11,8 +11,7 @@ import SwiftUI
 struct KBDCalcApp: App {
   var body: some Scene {
     WindowGroup {
-//      HexagonGridView(rows: 8, columns: 80, hexagonSize: 4, strokeColor: .blue)
-       SquareKeysTestView()
+      SquareKeysTestView()
     }
   }
 }

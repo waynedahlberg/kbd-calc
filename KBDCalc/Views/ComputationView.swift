@@ -22,17 +22,17 @@ struct ComputationView: View {
           .lineLimit(1)
       }
       .minimumScaleFactor(0.1)
-      
+
       HStack {
         Spacer()
         Text(currentComputation)
           .foregroundStyle(.foregroundDigits)
-          .font(UIDevice.isTablet ? .largeTitle : .body)
+          .font(UIDevice.isTablet ? .largeTitle : .title2)
           .lineLimit(1)
+          .padding(.trailing, 4)
       }
       .minimumScaleFactor(0.1)
-      
-      
+
     }
     .padding(.horizontal)
   }

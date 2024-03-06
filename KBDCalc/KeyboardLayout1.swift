@@ -26,7 +26,7 @@ struct KeyboardLayout1: View {
         NumeralButton(fgColor: .black, bgColor: .white, char: "7")
         NumeralButton(fgColor: .black, bgColor: .white, char: "8")
         NumeralButton(fgColor: .black, bgColor: .white, char: "9")
-        NumeralButton(fgColor: .white, bgColor: .blue, char: "÷")
+        NumeralButton(fgColor: .white, bgColor: .blue, char: "/")
       }
       HStack(spacing:2) {
         NumeralButton(fgColor: .black, bgColor: .white, char: "4")
@@ -44,7 +44,7 @@ struct KeyboardLayout1: View {
         NumeralButton(fgColor: .black, bgColor: .white, char: "7")
         NumeralButton(fgColor: .black, bgColor: .white, char: "8")
         NumeralButton(fgColor: .black, bgColor: .white, char: "9")
-        NumeralButton(fgColor: .white, bgColor: .blue, char: "÷")
+        NumeralButton(fgColor: .white, bgColor: .blue, char: "/")
       }
 
       HStack(spacing: 2) {

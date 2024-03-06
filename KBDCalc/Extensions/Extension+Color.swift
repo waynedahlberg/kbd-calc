@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Support for HEX color values
 extension Color {
   init(hex: String) {
     let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
