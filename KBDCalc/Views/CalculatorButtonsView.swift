@@ -12,6 +12,7 @@ struct CalcButtonModel: Identifiable {
   let id = UUID()
   let calcButton: CalcButton
   var color: Color = .foregroundDigits
+  var theme: ButtonTheme = .classic
 }
 
 struct RowOfCalculatorButtonsModel: Identifiable {
@@ -21,40 +22,43 @@ struct RowOfCalculatorButtonsModel: Identifiable {
 
 struct CalculatorButtonsView: View {
   // State
+  @State private var currentButtonTheme: ButtonTheme = .classic
+  @State private var currentDisplayTheme: DisplayTheme = .basic
+  
   @Binding var currentComputation: String
   @Binding var mainResult: String
   
   // Properties
   let buttonData: [RowOfCalculatorButtonsModel] = [
     RowOfCalculatorButtonsModel(row: [
-      CalcButtonModel(calcButton: .clear, color: .ledblue),                   // Clear      C
-      CalcButtonModel(calcButton: .negative, color: .op1Gray),                // Negative   +/-
-      CalcButtonModel(calcButton: .percentage, color: .op1Gray),              // Percent    %
-      CalcButtonModel(calcButton: .divide, color: .op1Gray)                   // Divide     /
+      CalcButtonModel(calcButton: .clear, color: .ledblue),
+      CalcButtonModel(calcButton: .negative, color: .op1Gray),
+      CalcButtonModel(calcButton: .percentage, color: .op1Gray),
+      CalcButtonModel(calcButton: .divide, color: .op1Gray)
     ]),
     RowOfCalculatorButtonsModel(row: [
-      CalcButtonModel(calcButton: .seven),                                    // Seven      7
-      CalcButtonModel(calcButton: .eight),                                    // Eight      8
-      CalcButtonModel(calcButton: .nine),                                     // Nine       9
-      CalcButtonModel(calcButton: .multiply, color: .op1Gray),                // Multiply   ✕
+      CalcButtonModel(calcButton: .seven),
+      CalcButtonModel(calcButton: .eight),
+      CalcButtonModel(calcButton: .nine),
+      CalcButtonModel(calcButton: .multiply, color: .op1Gray),
     ]),
     RowOfCalculatorButtonsModel(row: [
-      CalcButtonModel(calcButton: .four),                                     // Four       4
-      CalcButtonModel(calcButton: .five),                                     // Five       5
-      CalcButtonModel(calcButton: .six),                                      // Six        6
-      CalcButtonModel(calcButton: .subtract, color: .op1Gray),                // Subtract   -
+      CalcButtonModel(calcButton: .four),
+      CalcButtonModel(calcButton: .five),
+      CalcButtonModel(calcButton: .six),
+      CalcButtonModel(calcButton: .subtract, color: .op1Gray),
     ]),
     RowOfCalculatorButtonsModel(row: [
-      CalcButtonModel(calcButton: .one),                                      // One        1
-      CalcButtonModel(calcButton: .two),                                      // Two        2
-      CalcButtonModel(calcButton: .three),                                    // Three      3
-      CalcButtonModel(calcButton: .add, color: .op1Gray),                     // Add        +
+      CalcButtonModel(calcButton: .one),
+      CalcButtonModel(calcButton: .two),
+      CalcButtonModel(calcButton: .three),
+      CalcButtonModel(calcButton: .add, color: .op1Gray),
     ]),
     RowOfCalculatorButtonsModel(row: [
-      CalcButtonModel(calcButton: .undo, color: .burnedOrange),               // Undo       ←
-      CalcButtonModel(calcButton: .zero),                                     // Zero       0
-      CalcButtonModel(calcButton: .decimal),                                  // Decimal    .
-      CalcButtonModel(calcButton: .equal),                                    // Equals     =
+      CalcButtonModel(calcButton: .undo, color: .burnedOrange),
+      CalcButtonModel(calcButton: .zero),
+      CalcButtonModel(calcButton: .decimal),
+      CalcButtonModel(calcButton: .equal),
     ])
   ]
   
@@ -68,7 +72,7 @@ struct CalculatorButtonsView: View {
               // logic
               buttonPressed(calcButton: button.calcButton)
             }, label: {
-              ButtonView(calcButton: button.calcButton,
+              ButtonView(currentButtonTheme: $currentButtonTheme, calcButton: button.calcButton,
                          fgColor: button.color,
                          bgColor: .buttonBG)
             })
@@ -148,26 +152,11 @@ struct CalculatorButtonsView: View {
     var workings = visibleWorkings.replacingOccurrences(of: "%", with: "*.01")
     workings = workings.replacingOccurrences(of: multiplySymbol, with: "*")
     workings = workings.replacingOccurrences(of: divisionSymbol, with: "/")
-//  if "35." will be replaced by "35.0"
+
+    //  if "35." will be replaced by "35.0"
     if getLastChar(str: visibleWorkings) == "." {
       workings += "0"
     }
-    
-//    let expr = NSExpression(format: workings)
-//    
-//    let exprValue = expr.expressionValue(with: nil, context: nil) as! Double
-//    print("value of expr: \(expr)")
-//    print("value of exprValue: \(exprValue)")
-//    return exprValue
-    
-    // DD version
-//    do {
-//      print("DD result: \(String(describing: try! workings.evaluate().formatted(withDecimalPlaces: 7)))")
-//      return try workings.evaluate()
-//    } catch {
-//      print("DD Eval Error: \(error.localizedDescription)")
-//      return 0.0
-//    }
     
     do {
       let double = try workings.evaluate()
@@ -181,8 +170,6 @@ struct CalculatorButtonsView: View {
   func appendToCurrentComputation(calcButton: CalcButton) {
     currentComputation += calcButton.rawValue
   }
-  
-  
 }
 
 #Preview {

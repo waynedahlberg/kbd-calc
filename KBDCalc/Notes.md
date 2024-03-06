@@ -30,3 +30,6 @@ LEDGlowView font settings for:
                                     smallFontSize: UIDevice.isTablet ? 24 : 16)
 
             
+Using Dave Delong's MathParser swift library for formatting strings of expressions to Math operations. NICE, will have to thank him.
+
+

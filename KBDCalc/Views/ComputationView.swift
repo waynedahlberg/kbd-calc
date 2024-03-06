@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ComputationView: View {
+  @Binding var currentDisplayTheme: DisplayTheme
+  
   let currentComputation: String
   let mainResult: String
   
@@ -16,19 +18,21 @@ struct ComputationView: View {
       HStack {
         Spacer()
         Text(mainResult)
-          .foregroundStyle(.foregroundDigits)
+          .foregroundStyle(currentDisplayTheme.digitColor)
           .font(.largeTitle)
           .fontWeight(.semibold)
           .lineLimit(1)
+          .background(currentDisplayTheme.backgroundColor)
       }
       .minimumScaleFactor(0.1)
 
       HStack {
         Spacer()
         Text(currentComputation)
-          .foregroundStyle(.foregroundDigits)
+          .foregroundStyle(currentDisplayTheme.digitColor)
           .font(UIDevice.isTablet ? .largeTitle : .title2)
           .lineLimit(1)
+          .background(currentDisplayTheme.backgroundColor)
           .padding(.trailing, 4)
       }
       .minimumScaleFactor(0.1)
@@ -39,5 +43,5 @@ struct ComputationView: View {
 }
 
 #Preview {
-  ComputationView(currentComputation: "11 + 12", mainResult: "23")
+  ComputationView(currentDisplayTheme: .constant(DisplayTheme.basic), currentComputation: "11 + 12", mainResult: "23")
 }

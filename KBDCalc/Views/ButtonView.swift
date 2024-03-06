@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ButtonView: View {
   @Environment(\.mainWindowSize) var windowSize
+  @Binding var currentButtonTheme: ButtonTheme
   
   let calcButton: CalcButton
   let fgColor: Color
@@ -30,7 +31,7 @@ struct ButtonView: View {
     let value = calcButton.rawValue
     return value.contains("SVG") ? nil : value
   }
-    
+  
   let buttonDim: CGFloat = UIDevice.isTablet ? UIScreen.main.bounds.width / 5 : UIScreen.main.bounds.width / 5
   
   var body: some View {
@@ -40,23 +41,19 @@ struct ButtonView: View {
     .font(UIDevice.isTablet ? .largeTitle : .title2)
     .fontWeight(UIDevice.isTablet ? .bold : .semibold)
     .frame(width: buttonDim, height: buttonDim)
-    .foregroundColor(fgColor)
-    .background(bgColor)
+    .foregroundColor(currentButtonTheme.digitColor)
+    .background(currentButtonTheme.keyColor)
     .clipShape(RoundedRectangle(cornerRadius: 20))
-    .shadow(color: bgColor.opacity(0.5), radius: 5, x: 5, y: 5)
+    .shadow(color: .black.opacity(0.5), radius: 5, x: 5, y: 5)
   }
 }
 
 #Preview {
   VStack {
-    ButtonView(calcButton: .decimal, fgColor: .foregroundDigits, bgColor: .secondaryBG)
+    ButtonView(currentButtonTheme: .constant(ButtonTheme.classic), calcButton: .undo, fgColor: .orange, bgColor: .white)
     
-    ButtonView(calcButton: .undo, fgColor: .foregroundDigits, bgColor: .secondaryBG)
+    ButtonView(currentButtonTheme: .constant(ButtonTheme.modern), calcButton: .undo, fgColor: .orange, bgColor: .white)
     
-    ButtonView(calcButton: .divide, fgColor: .foregroundDigits, bgColor: .secondaryBG)
-    
-    ButtonView(calcButton: .five, fgColor: .foregroundDigits, bgColor: .secondaryBG)
-    
-    ButtonView(calcButton: .multiply, fgColor: .foregroundDigits, bgColor: .secondaryBG)
+    ButtonView(currentButtonTheme: .constant(ButtonTheme.neon), calcButton: .undo, fgColor: .orange, bgColor: .white)
   }
 }

@@ -15,6 +15,7 @@
 		B04CAE0F2B9639730092909C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE0E2B9639730092909C /* Haptics.swift */; };
 		B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3092B99025E008FB84F /* Extension+Double.swift */; };
 		B069E30C2B99093A008FB84F /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30B2B99093A008FB84F /* Extension+String.swift */; };
+		B069E30F2B990B89008FB84F /* ButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30E2B990B89008FB84F /* ButtonTheme.swift */; };
 		B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */; };
 		B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */; };
 		B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		B04CAE0E2B9639730092909C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		B069E3092B99025E008FB84F /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
 		B069E30B2B99093A008FB84F /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		B069E30E2B990B89008FB84F /* ButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTheme.swift; sourceTree = "<group>"; };
 		B0924B0A2B93DFC8001DC0BF /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 		B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareKeysTestView.swift; sourceTree = "<group>"; };
 		B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,14 @@
 			name = OP1;
 			sourceTree = "<group>";
 		};
+		B069E30D2B990B81008FB84F /* Theming */ = {
+			isa = PBXGroup;
+			children = (
+				B069E30E2B990B89008FB84F /* ButtonTheme.swift */,
+			);
+			path = Theming;
+			sourceTree = "<group>";
+		};
 		B0A7DDDD2B92710C00B6D6A5 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +172,7 @@
 		B0A7DDFA2B92968D00B6D6A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B069E30D2B990B81008FB84F /* Theming */,
 				B0A7DE132B92BC0B00B6D6A5 /* sandbox */,
 				B04CADF52B943E9F0092909C /* LED Display */,
 				B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */,
@@ -299,6 +310,7 @@
 				B0FAD75A2B984BE30091C081 /* ExpressionTestView.swift in Sources */,
 				B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */,
 				B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */,
+				B069E30F2B990B89008FB84F /* ButtonTheme.swift in Sources */,
 				B04CAE072B9574270092909C /* OP1ButtonView.swift in Sources */,
 				B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */,
 				B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */,

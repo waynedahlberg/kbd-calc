@@ -28,8 +28,8 @@ struct MainCalculator: View {
         
         Spacer()
         
-        ComputationView(currentComputation: currentComputation, mainResult: mainResult)
-          .padding(.horizontal, UIDevice.isTablet ? UIScreen.main.bounds.width * 0.15 : 0)
+//        ComputationView(currentComputation: currentComputation, mainResult: mainResult)
+//          .padding(.horizontal, UIDevice.isTablet ? UIScreen.main.bounds.width * 0.15 : 0)
         
         Spacer()
         
