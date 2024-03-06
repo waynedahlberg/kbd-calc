@@ -1,5 +1,5 @@
 //
-//  KeyboardLayout1.swift
+//  TapbotsLayout.swift
 //  KBDCalc
 //
 //  Created by Wayne Dahlberg on 3/1/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct KeyboardLayout1: View {
+struct TapbotsLayout: View {
   @Environment(\.mainWindowSize) var windowsSize
   
   let keypad: [[String]] = [
@@ -69,7 +69,7 @@ struct KeyboardLayout1: View {
 }
 
 #Preview {
-  KeyboardLayout1()
+  TapbotsLayout()
 }
 
 

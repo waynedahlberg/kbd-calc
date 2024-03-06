@@ -29,31 +29,31 @@ enum ButtonTheme: String {
     case .neon:         return .purple
     }
   }
+  
+  // Can be ANY view, not just these colors
+  @ViewBuilder var keyBackgroundView: some View {
+    switch self {
+    case .classic:
+      Color.yellow
+    case .modern:
+      Color.white
+    case .neon:
+      Color.purple
+    }
+  }
+  
+  var keyFont: String {
+    switch self {
+    case .classic:
+      return "ClassicFontName"
+    case .modern:
+      return "ModernFontName"
+    case .neon:
+      return "NeonFontName"
+    }
+  }
 }
 
-/// Computation View theme
-///
-enum DisplayTheme: String {
-  case basic
-  case dark
-  case light
-  
-  var digitColor: Color {
-    switch self {
-    case .basic:        return .cyan
-    case .dark:         return .white
-    case .light:        return .black
-    }
-  }
-  
-  var backgroundColor: Color {
-    switch self {
-    case .basic:        return .purple
-    case .dark:         return .black
-    case .light:        return .white
-    }
-  }
-}
 
 
 

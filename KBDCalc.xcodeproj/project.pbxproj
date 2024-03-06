@@ -8,14 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		B04CADF22B94303C0092909C /* LCDGlow.metal in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF12B94303C0092909C /* LCDGlow.metal */; };
-		B04CADF42B9439C60092909C /* LEDGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CADF32B9439C60092909C /* LEDGlowView.swift */; };
 		B04CAE072B9574270092909C /* OP1ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE062B9574270092909C /* OP1ButtonView.swift */; };
 		B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE082B95749D0092909C /* Extension+Color.swift */; };
-		B04CAE0D2B96372B0092909C /* CalcButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE0C2B96372B0092909C /* CalcButtonStyle.swift */; };
 		B04CAE0F2B9639730092909C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE0E2B9639730092909C /* Haptics.swift */; };
 		B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3092B99025E008FB84F /* Extension+Double.swift */; };
 		B069E30C2B99093A008FB84F /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30B2B99093A008FB84F /* Extension+String.swift */; };
 		B069E30F2B990B89008FB84F /* ButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30E2B990B89008FB84F /* ButtonTheme.swift */; };
+		B069E3112B9912F9008FB84F /* DisplayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3102B9912F9008FB84F /* DisplayTheme.swift */; };
+		B069E3142B991630008FB84F /* BlueDisplayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3132B991630008FB84F /* BlueDisplayTheme.swift */; };
+		B069E3182B9917BD008FB84F /* NeoSynthKeyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3172B9917BD008FB84F /* NeoSynthKeyTheme.swift */; };
+		B069E31A2B9918ED008FB84F /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3192B9918ED008FB84F /* ButtonStyles.swift */; };
+		B069E31E2B991C88008FB84F /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E31D2B991C88008FB84F /* Extension+View.swift */; };
+		B069E3202B99251D008FB84F /* RedDisplayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E31F2B99251D008FB84F /* RedDisplayTheme.swift */; };
+		B069E3242B992541008FB84F /* GreenDisplayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3232B992541008FB84F /* GreenDisplayTheme.swift */; };
+		B069E3272B992898008FB84F /* DigitalSevenFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3262B992898008FB84F /* DigitalSevenFont.swift */; };
+		B069E3292B9929DE008FB84F /* DigitalSevenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3282B9929DE008FB84F /* DigitalSevenView.swift */; };
+		B069E3412B992C9F008FB84F /* DSEG7ClassicMini-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E32A2B992C9E008FB84F /* DSEG7ClassicMini-Italic.ttf */; };
+		B069E3422B992C9F008FB84F /* DSEG14ClassicMini-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E32B2B992C9E008FB84F /* DSEG14ClassicMini-Bold.ttf */; };
+		B069E3432B992C9F008FB84F /* DSEG14ClassicMini-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E32C2B992C9F008FB84F /* DSEG14ClassicMini-Light.ttf */; };
+		B069E3442B992C9F008FB84F /* DSEG14ClassicMini-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E32D2B992C9F008FB84F /* DSEG14ClassicMini-LightItalic.ttf */; };
+		B069E3452B992C9F008FB84F /* DSEG14Classic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E32E2B992C9F008FB84F /* DSEG14Classic-Italic.ttf */; };
+		B069E3462B992C9F008FB84F /* DSEG7Classic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E32F2B992C9F008FB84F /* DSEG7Classic-Italic.ttf */; };
+		B069E3472B992C9F008FB84F /* DSEG14ClassicMini-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3302B992C9F008FB84F /* DSEG14ClassicMini-Regular.ttf */; };
+		B069E3482B992C9F008FB84F /* DSEG7ClassicMini-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3312B992C9F008FB84F /* DSEG7ClassicMini-LightItalic.ttf */; };
+		B069E3492B992C9F008FB84F /* DSEG14Classic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3322B992C9F008FB84F /* DSEG14Classic-Light.ttf */; };
+		B069E34A2B992C9F008FB84F /* DSEG14ClassicMini-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3332B992C9F008FB84F /* DSEG14ClassicMini-Italic.ttf */; };
+		B069E34B2B992C9F008FB84F /* DSEG7Classic-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3342B992C9F008FB84F /* DSEG7Classic-LightItalic.ttf */; };
+		B069E34C2B992C9F008FB84F /* DSEG14Classic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3352B992C9F008FB84F /* DSEG14Classic-BoldItalic.ttf */; };
+		B069E34D2B992C9F008FB84F /* DSEG7Classic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3362B992C9F008FB84F /* DSEG7Classic-BoldItalic.ttf */; };
+		B069E34E2B992C9F008FB84F /* DSEG14Classic-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3372B992C9F008FB84F /* DSEG14Classic-LightItalic.ttf */; };
+		B069E34F2B992C9F008FB84F /* DSEG14ClassicMini-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3382B992C9F008FB84F /* DSEG14ClassicMini-BoldItalic.ttf */; };
+		B069E3502B992C9F008FB84F /* DSEG7ClassicMini-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3392B992C9F008FB84F /* DSEG7ClassicMini-Regular.ttf */; };
+		B069E3512B992C9F008FB84F /* DSEG14Classic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E33A2B992C9F008FB84F /* DSEG14Classic-Bold.ttf */; };
+		B069E3522B992C9F008FB84F /* DSEG7ClassicMini-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E33B2B992C9F008FB84F /* DSEG7ClassicMini-BoldItalic.ttf */; };
+		B069E3532B992C9F008FB84F /* DSEG7ClassicMini-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E33C2B992C9F008FB84F /* DSEG7ClassicMini-Bold.ttf */; };
+		B069E3542B992C9F008FB84F /* DSEG14Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E33D2B992C9F008FB84F /* DSEG14Classic-Regular.ttf */; };
+		B069E3552B992C9F008FB84F /* DSEG7Classic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E33E2B992C9F008FB84F /* DSEG7Classic-Bold.ttf */; };
+		B069E3562B992C9F008FB84F /* DSEG7Classic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E33F2B992C9F008FB84F /* DSEG7Classic-Light.ttf */; };
+		B069E3572B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3402B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf */; };
 		B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */; };
 		B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */; };
 		B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */; };
@@ -29,26 +59,55 @@
 		B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE0C2B92A25900B6D6A5 /* EnvironmentValues.swift */; };
 		B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */; };
 		B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */; };
-		B0A7DE152B92BC1D00B6D6A5 /* KeyboardLayout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE142B92BC1D00B6D6A5 /* KeyboardLayout1.swift */; };
+		B0A7DE152B92BC1D00B6D6A5 /* TapbotsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE142B92BC1D00B6D6A5 /* TapbotsLayout.swift */; };
 		B0FAD70C2B9687390091C081 /* DSEG7Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD70B2B9687390091C081 /* DSEG7Classic-Regular.ttf */; };
 		B0FAD7252B97A4110091C081 /* HexGrid in Frameworks */ = {isa = PBXBuildFile; productRef = B0FAD7242B97A4110091C081 /* HexGrid */; };
 		B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7332B97B4380091C081 /* HexagonGridView.swift */; };
 		B0FAD7362B97B51F0091C081 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7352B97B51F0091C081 /* Hexagon.swift */; };
-		B0FAD75A2B984BE30091C081 /* ExpressionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7592B984BE30091C081 /* ExpressionTestView.swift */; };
 		B0FAD7612B98F4830091C081 /* MathParser in Frameworks */ = {isa = PBXBuildFile; productRef = B0FAD7602B98F4830091C081 /* MathParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B04CADF12B94303C0092909C /* LCDGlow.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = LCDGlow.metal; sourceTree = "<group>"; };
-		B04CADF32B9439C60092909C /* LEDGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDGlowView.swift; sourceTree = "<group>"; };
 		B04CAE042B944B7D0092909C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B04CAE062B9574270092909C /* OP1ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OP1ButtonView.swift; sourceTree = "<group>"; };
 		B04CAE082B95749D0092909C /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
-		B04CAE0C2B96372B0092909C /* CalcButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButtonStyle.swift; sourceTree = "<group>"; };
 		B04CAE0E2B9639730092909C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		B069E3092B99025E008FB84F /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
 		B069E30B2B99093A008FB84F /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		B069E30E2B990B89008FB84F /* ButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTheme.swift; sourceTree = "<group>"; };
+		B069E3102B9912F9008FB84F /* DisplayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTheme.swift; sourceTree = "<group>"; };
+		B069E3132B991630008FB84F /* BlueDisplayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueDisplayTheme.swift; sourceTree = "<group>"; };
+		B069E3172B9917BD008FB84F /* NeoSynthKeyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSynthKeyTheme.swift; sourceTree = "<group>"; };
+		B069E3192B9918ED008FB84F /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		B069E31D2B991C88008FB84F /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		B069E31F2B99251D008FB84F /* RedDisplayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDisplayTheme.swift; sourceTree = "<group>"; };
+		B069E3232B992541008FB84F /* GreenDisplayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenDisplayTheme.swift; sourceTree = "<group>"; };
+		B069E3262B992898008FB84F /* DigitalSevenFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalSevenFont.swift; sourceTree = "<group>"; };
+		B069E3282B9929DE008FB84F /* DigitalSevenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalSevenView.swift; sourceTree = "<group>"; };
+		B069E32A2B992C9E008FB84F /* DSEG7ClassicMini-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Italic.ttf"; sourceTree = "<group>"; };
+		B069E32B2B992C9E008FB84F /* DSEG14ClassicMini-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14ClassicMini-Bold.ttf"; sourceTree = "<group>"; };
+		B069E32C2B992C9F008FB84F /* DSEG14ClassicMini-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14ClassicMini-Light.ttf"; sourceTree = "<group>"; };
+		B069E32D2B992C9F008FB84F /* DSEG14ClassicMini-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14ClassicMini-LightItalic.ttf"; sourceTree = "<group>"; };
+		B069E32E2B992C9F008FB84F /* DSEG14Classic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14Classic-Italic.ttf"; sourceTree = "<group>"; };
+		B069E32F2B992C9F008FB84F /* DSEG7Classic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Italic.ttf"; sourceTree = "<group>"; };
+		B069E3302B992C9F008FB84F /* DSEG14ClassicMini-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14ClassicMini-Regular.ttf"; sourceTree = "<group>"; };
+		B069E3312B992C9F008FB84F /* DSEG7ClassicMini-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-LightItalic.ttf"; sourceTree = "<group>"; };
+		B069E3322B992C9F008FB84F /* DSEG14Classic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14Classic-Light.ttf"; sourceTree = "<group>"; };
+		B069E3332B992C9F008FB84F /* DSEG14ClassicMini-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14ClassicMini-Italic.ttf"; sourceTree = "<group>"; };
+		B069E3342B992C9F008FB84F /* DSEG7Classic-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-LightItalic.ttf"; sourceTree = "<group>"; };
+		B069E3352B992C9F008FB84F /* DSEG14Classic-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14Classic-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B069E3362B992C9F008FB84F /* DSEG7Classic-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B069E3372B992C9F008FB84F /* DSEG14Classic-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14Classic-LightItalic.ttf"; sourceTree = "<group>"; };
+		B069E3382B992C9F008FB84F /* DSEG14ClassicMini-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14ClassicMini-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B069E3392B992C9F008FB84F /* DSEG7ClassicMini-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Regular.ttf"; sourceTree = "<group>"; };
+		B069E33A2B992C9F008FB84F /* DSEG14Classic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14Classic-Bold.ttf"; sourceTree = "<group>"; };
+		B069E33B2B992C9F008FB84F /* DSEG7ClassicMini-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B069E33C2B992C9F008FB84F /* DSEG7ClassicMini-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Bold.ttf"; sourceTree = "<group>"; };
+		B069E33D2B992C9F008FB84F /* DSEG14Classic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14Classic-Regular.ttf"; sourceTree = "<group>"; };
+		B069E33E2B992C9F008FB84F /* DSEG7Classic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Bold.ttf"; sourceTree = "<group>"; };
+		B069E33F2B992C9F008FB84F /* DSEG7Classic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Light.ttf"; sourceTree = "<group>"; };
+		B069E3402B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Light.ttf"; sourceTree = "<group>"; };
 		B0924B0A2B93DFC8001DC0BF /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 		B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareKeysTestView.swift; sourceTree = "<group>"; };
 		B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,11 +124,10 @@
 		B0A7DE0C2B92A25900B6D6A5 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalculator.swift; sourceTree = "<group>"; };
-		B0A7DE142B92BC1D00B6D6A5 /* KeyboardLayout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout1.swift; sourceTree = "<group>"; };
+		B0A7DE142B92BC1D00B6D6A5 /* TapbotsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapbotsLayout.swift; sourceTree = "<group>"; };
 		B0FAD70B2B9687390091C081 /* DSEG7Classic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Regular.ttf"; sourceTree = "<group>"; };
 		B0FAD7332B97B4380091C081 /* HexagonGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonGridView.swift; sourceTree = "<group>"; };
 		B0FAD7352B97B51F0091C081 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
-		B0FAD7592B984BE30091C081 /* ExpressionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +146,6 @@
 		B04CADF52B943E9F0092909C /* LED Display */ = {
 			isa = PBXGroup;
 			children = (
-				B04CADF12B94303C0092909C /* LCDGlow.metal */,
-				B04CADF32B9439C60092909C /* LEDGlowView.swift */,
-				B0FAD7332B97B4380091C081 /* HexagonGridView.swift */,
-				B0FAD7352B97B51F0091C081 /* Hexagon.swift */,
 			);
 			name = "LED Display";
 			path = ..;
@@ -108,6 +162,29 @@
 		B04CADFF2B944B210092909C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B069E33E2B992C9F008FB84F /* DSEG7Classic-Bold.ttf */,
+				B069E3362B992C9F008FB84F /* DSEG7Classic-BoldItalic.ttf */,
+				B069E32F2B992C9F008FB84F /* DSEG7Classic-Italic.ttf */,
+				B069E33F2B992C9F008FB84F /* DSEG7Classic-Light.ttf */,
+				B069E3342B992C9F008FB84F /* DSEG7Classic-LightItalic.ttf */,
+				B069E33C2B992C9F008FB84F /* DSEG7ClassicMini-Bold.ttf */,
+				B069E33B2B992C9F008FB84F /* DSEG7ClassicMini-BoldItalic.ttf */,
+				B069E32A2B992C9E008FB84F /* DSEG7ClassicMini-Italic.ttf */,
+				B069E3402B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf */,
+				B069E3312B992C9F008FB84F /* DSEG7ClassicMini-LightItalic.ttf */,
+				B069E3392B992C9F008FB84F /* DSEG7ClassicMini-Regular.ttf */,
+				B069E33A2B992C9F008FB84F /* DSEG14Classic-Bold.ttf */,
+				B069E3352B992C9F008FB84F /* DSEG14Classic-BoldItalic.ttf */,
+				B069E32E2B992C9F008FB84F /* DSEG14Classic-Italic.ttf */,
+				B069E3322B992C9F008FB84F /* DSEG14Classic-Light.ttf */,
+				B069E3372B992C9F008FB84F /* DSEG14Classic-LightItalic.ttf */,
+				B069E33D2B992C9F008FB84F /* DSEG14Classic-Regular.ttf */,
+				B069E32B2B992C9E008FB84F /* DSEG14ClassicMini-Bold.ttf */,
+				B069E3382B992C9F008FB84F /* DSEG14ClassicMini-BoldItalic.ttf */,
+				B069E3332B992C9F008FB84F /* DSEG14ClassicMini-Italic.ttf */,
+				B069E32C2B992C9F008FB84F /* DSEG14ClassicMini-Light.ttf */,
+				B069E32D2B992C9F008FB84F /* DSEG14ClassicMini-LightItalic.ttf */,
+				B069E3302B992C9F008FB84F /* DSEG14ClassicMini-Regular.ttf */,
 				B0FAD70B2B9687390091C081 /* DSEG7Classic-Regular.ttf */,
 			);
 			path = Fonts;
@@ -124,9 +201,84 @@
 		B069E30D2B990B81008FB84F /* Theming */ = {
 			isa = PBXGroup;
 			children = (
-				B069E30E2B990B89008FB84F /* ButtonTheme.swift */,
+				B069E3252B992877008FB84F /* Digital Seven Typography */,
+				B069E3122B991611008FB84F /* Themes */,
+				B069E31B2B99191D008FB84F /* Styles */,
 			);
 			path = Theming;
+			sourceTree = "<group>";
+		};
+		B069E3122B991611008FB84F /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				B069E30E2B990B89008FB84F /* ButtonTheme.swift */,
+				B069E3102B9912F9008FB84F /* DisplayTheme.swift */,
+				B069E3162B991732008FB84F /* Keys */,
+				B069E3152B99172B008FB84F /* Displays */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		B069E3152B99172B008FB84F /* Displays */ = {
+			isa = PBXGroup;
+			children = (
+				B069E3222B99252C008FB84F /* Green Display */,
+				B069E3212B992522008FB84F /* Red Display */,
+				B069E31C2B9919A9008FB84F /* BlueDisplay */,
+			);
+			path = Displays;
+			sourceTree = "<group>";
+		};
+		B069E3162B991732008FB84F /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				B069E3172B9917BD008FB84F /* NeoSynthKeyTheme.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		B069E31B2B99191D008FB84F /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				B069E3192B9918ED008FB84F /* ButtonStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		B069E31C2B9919A9008FB84F /* BlueDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				B069E3132B991630008FB84F /* BlueDisplayTheme.swift */,
+				B0FAD7332B97B4380091C081 /* HexagonGridView.swift */,
+				B0FAD7352B97B51F0091C081 /* Hexagon.swift */,
+				B04CADF12B94303C0092909C /* LCDGlow.metal */,
+			);
+			path = BlueDisplay;
+			sourceTree = "<group>";
+		};
+		B069E3212B992522008FB84F /* Red Display */ = {
+			isa = PBXGroup;
+			children = (
+				B069E31F2B99251D008FB84F /* RedDisplayTheme.swift */,
+			);
+			path = "Red Display";
+			sourceTree = "<group>";
+		};
+		B069E3222B99252C008FB84F /* Green Display */ = {
+			isa = PBXGroup;
+			children = (
+				B069E3232B992541008FB84F /* GreenDisplayTheme.swift */,
+			);
+			path = "Green Display";
+			sourceTree = "<group>";
+		};
+		B069E3252B992877008FB84F /* Digital Seven Typography */ = {
+			isa = PBXGroup;
+			children = (
+				B069E3262B992898008FB84F /* DigitalSevenFont.swift */,
+				B069E3282B9929DE008FB84F /* DigitalSevenView.swift */,
+			);
+			path = "Digital Seven Typography";
 			sourceTree = "<group>";
 		};
 		B0A7DDDD2B92710C00B6D6A5 = {
@@ -198,8 +350,9 @@
 				B0A7DE002B9297F500B6D6A5 /* iPadSupport.swift */,
 				B0A7DE0C2B92A25900B6D6A5 /* EnvironmentValues.swift */,
 				B0A7DE0E2B92A58F00B6D6A5 /* Helpers.swift */,
-				B04CAE082B95749D0092909C /* Extension+Color.swift */,
 				B04CAE0E2B9639730092909C /* Haptics.swift */,
+				B069E31D2B991C88008FB84F /* Extension+View.swift */,
+				B04CAE082B95749D0092909C /* Extension+Color.swift */,
 				B069E3092B99025E008FB84F /* Extension+Double.swift */,
 				B069E30B2B99093A008FB84F /* Extension+String.swift */,
 			);
@@ -209,12 +362,10 @@
 		B0A7DE132B92BC0B00B6D6A5 /* sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				B04CAE052B9574160092909C /* OP1 */,
-				B0A7DE142B92BC1D00B6D6A5 /* KeyboardLayout1.swift */,
 				B0924B0A2B93DFC8001DC0BF /* Notes.md */,
+				B04CAE052B9574160092909C /* OP1 */,
+				B0A7DE142B92BC1D00B6D6A5 /* TapbotsLayout.swift */,
 				B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */,
-				B04CAE0C2B96372B0092909C /* CalcButtonStyle.swift */,
-				B0FAD7592B984BE30091C081 /* ExpressionTestView.swift */,
 			);
 			name = sandbox;
 			path = ..;
@@ -286,9 +437,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B069E3572B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf in Resources */,
+				B069E34A2B992C9F008FB84F /* DSEG14ClassicMini-Italic.ttf in Resources */,
+				B069E3422B992C9F008FB84F /* DSEG14ClassicMini-Bold.ttf in Resources */,
+				B069E3512B992C9F008FB84F /* DSEG14Classic-Bold.ttf in Resources */,
+				B069E3552B992C9F008FB84F /* DSEG7Classic-Bold.ttf in Resources */,
+				B069E3452B992C9F008FB84F /* DSEG14Classic-Italic.ttf in Resources */,
 				B0A7DDF22B92710D00B6D6A5 /* Preview Assets.xcassets in Resources */,
+				B069E34E2B992C9F008FB84F /* DSEG14Classic-LightItalic.ttf in Resources */,
+				B069E34C2B992C9F008FB84F /* DSEG14Classic-BoldItalic.ttf in Resources */,
+				B069E3522B992C9F008FB84F /* DSEG7ClassicMini-BoldItalic.ttf in Resources */,
+				B069E34F2B992C9F008FB84F /* DSEG14ClassicMini-BoldItalic.ttf in Resources */,
 				B0FAD70C2B9687390091C081 /* DSEG7Classic-Regular.ttf in Resources */,
+				B069E3432B992C9F008FB84F /* DSEG14ClassicMini-Light.ttf in Resources */,
+				B069E34D2B992C9F008FB84F /* DSEG7Classic-BoldItalic.ttf in Resources */,
+				B069E3532B992C9F008FB84F /* DSEG7ClassicMini-Bold.ttf in Resources */,
+				B069E3472B992C9F008FB84F /* DSEG14ClassicMini-Regular.ttf in Resources */,
+				B069E3542B992C9F008FB84F /* DSEG14Classic-Regular.ttf in Resources */,
+				B069E3492B992C9F008FB84F /* DSEG14Classic-Light.ttf in Resources */,
+				B069E3462B992C9F008FB84F /* DSEG7Classic-Italic.ttf in Resources */,
+				B069E3502B992C9F008FB84F /* DSEG7ClassicMini-Regular.ttf in Resources */,
+				B069E3482B992C9F008FB84F /* DSEG7ClassicMini-LightItalic.ttf in Resources */,
 				B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */,
+				B069E34B2B992C9F008FB84F /* DSEG7Classic-LightItalic.ttf in Resources */,
+				B069E3442B992C9F008FB84F /* DSEG14ClassicMini-LightItalic.ttf in Resources */,
+				B069E3412B992C9F008FB84F /* DSEG7ClassicMini-Italic.ttf in Resources */,
+				B069E3562B992C9F008FB84F /* DSEG7Classic-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,24 +477,30 @@
 				B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */,
 				B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */,
 				B0A7DDFE2B9296D000B6D6A5 /* SunMoonView.swift in Sources */,
-				B04CAE0D2B96372B0092909C /* CalcButtonStyle.swift in Sources */,
+				B069E3182B9917BD008FB84F /* NeoSynthKeyTheme.swift in Sources */,
+				B069E3142B991630008FB84F /* BlueDisplayTheme.swift in Sources */,
 				B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */,
 				B0A7DE012B9297F500B6D6A5 /* iPadSupport.swift in Sources */,
 				B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */,
-				B0FAD75A2B984BE30091C081 /* ExpressionTestView.swift in Sources */,
 				B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */,
+				B069E31E2B991C88008FB84F /* Extension+View.swift in Sources */,
 				B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */,
+				B069E3272B992898008FB84F /* DigitalSevenFont.swift in Sources */,
+				B069E3292B9929DE008FB84F /* DigitalSevenView.swift in Sources */,
+				B069E3242B992541008FB84F /* GreenDisplayTheme.swift in Sources */,
 				B069E30F2B990B89008FB84F /* ButtonTheme.swift in Sources */,
 				B04CAE072B9574270092909C /* OP1ButtonView.swift in Sources */,
 				B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */,
 				B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */,
-				B0A7DE152B92BC1D00B6D6A5 /* KeyboardLayout1.swift in Sources */,
+				B069E3202B99251D008FB84F /* RedDisplayTheme.swift in Sources */,
+				B0A7DE152B92BC1D00B6D6A5 /* TapbotsLayout.swift in Sources */,
 				B069E30C2B99093A008FB84F /* Extension+String.swift in Sources */,
 				B04CADF22B94303C0092909C /* LCDGlow.metal in Sources */,
 				B0FAD7362B97B51F0091C081 /* Hexagon.swift in Sources */,
-				B04CADF42B9439C60092909C /* LEDGlowView.swift in Sources */,
+				B069E3112B9912F9008FB84F /* DisplayTheme.swift in Sources */,
 				B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */,
 				B04CAE0F2B9639730092909C /* Haptics.swift in Sources */,
+				B069E31A2B9918ED008FB84F /* ButtonStyles.swift in Sources */,
 				B0A7DE072B929B6F00B6D6A5 /* Enumerations.swift in Sources */,
 				B0A7DE0B2B92A04200B6D6A5 /* ButtonView.swift in Sources */,
 			);

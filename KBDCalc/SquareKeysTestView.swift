@@ -67,7 +67,7 @@ struct SquareKeysTestView: View {
 //              }
             VStack {
               Spacer()
-              LEDGlowView(
+              BlueDisplayTheme(
                 largeFontSize: UIDevice.isTablet ? 64 : 44,
                 smallFontSize: UIDevice.isTablet ? 24 : 16)
               .aspectRatio(2.32, contentMode: .fit)
