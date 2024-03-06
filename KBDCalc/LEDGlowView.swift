@@ -36,10 +36,10 @@ struct LEDGlowView: View {
         HStack {
           Spacer()
           ZStack(alignment: .trailing) {
-            Text("888888888888888888888888")
-              .foregroundStyle(.white.opacity(0.1))
+            Text("88888888888")
+              .foregroundStyle(.cyan.opacity(0.1))
               .font(.custom("DSEG7Classic-Regular", size: smallFontSize))
-            Text("source at top")
+            Text("hello")
               .foregroundStyle(.white)
               .font(.custom("DSEG7Classic-Regular", size: smallFontSize))
               .glow(color: .ledblue, radius: 24, opacity: 0.85)
@@ -50,9 +50,9 @@ struct LEDGlowView: View {
           Spacer()
           ZStack(alignment: .trailing) {
             Text("888888888.")
-              .foregroundStyle(.white.opacity(0.1))
+              .foregroundStyle(.cyan.opacity(0.1))
               .font(.custom("DSEG7Classic-Regular", size: largeFontSize))
-            Text("3234.")
+            Text("3.141592")
               .foregroundStyle(.white)
               .font(.custom("DSEG7Classic-Regular", size: largeFontSize))
               .glow(color: .ledblue, radius: 13, opacity: 0.5)
