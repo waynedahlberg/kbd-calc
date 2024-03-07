@@ -8,6 +8,10 @@
 import SwiftUI
 
 enum DigitalSevenFont: String, CaseIterable {
+  func font(size: CGFloat) -> Font {
+    return .custom(self.rawValue, size: size)
+  }
+
   case classicBold                = "DSEG7Classic-Bold"
   case classicBoldItalic          = "DSEG7Classic-BoldItalic"
   case classicItalic              = "DSEG7Classic-Italic"
@@ -36,7 +40,32 @@ enum DigitalSevenFont: String, CaseIterable {
   case classic14MiniLightItalic   = "DSEG14ClassicMini-LightItalic"
   case classic14MiniRegular       = "DSEG14ClassicMini-Regular"
   
-  func font(size: CGFloat) -> Font {
-    return .custom(self.rawValue, size: size)
+  var isBold: Bool {
+    return self.rawValue.contains("Bold")
+  }
+  
+  var isItalic: Bool {
+    return self.rawValue.contains("Italic")
+  }
+  
+  var isClassicMini: Bool {
+    return self.rawValue.contains("ClassicMini")
+  }
+  
+  var isDSEG14: Bool {
+    return self.rawValue.contains("DSEG14")
+  }
+  
+  var isLight: Bool {
+    return self.rawValue.contains("Light") && !self.rawValue.contains("LightItalic")
+  }
+  
+  static func organizeFonts() -> [[DigitalSevenFont]] {
+    let allFonts = DigitalSevenFont.allCases
+    return [
+      allFonts.filter { !$0.isDSEG14 && !$0.isClassicMini && $0.isBold },                   // blue
+      allFonts.filter { !$0.isDSEG14 && $0.isClassicMini && !$0.isBold && !$0.isItalic },   // red
+      allFonts.filter { $0.isDSEG14 && $0.isClassicMini && $0.isBold && $0.isItalic },      // green
+    ]
   }
 }

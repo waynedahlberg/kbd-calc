@@ -11,7 +11,8 @@ import SwiftUI
 struct KBDCalcApp: App {
   var body: some Scene {
     WindowGroup {
-      SquareKeysTestView()
+      // SquareKeysTestView()
+      DigitalSevenView()
     }
   }
 }

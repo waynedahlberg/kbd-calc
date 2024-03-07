@@ -46,6 +46,8 @@
 		B069E3552B992C9F008FB84F /* DSEG7Classic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E33E2B992C9F008FB84F /* DSEG7Classic-Bold.ttf */; };
 		B069E3562B992C9F008FB84F /* DSEG7Classic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E33F2B992C9F008FB84F /* DSEG7Classic-Light.ttf */; };
 		B069E3572B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3402B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf */; };
+		B069E3592B99809D008FB84F /* FontSelectionProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3582B99809D008FB84F /* FontSelectionProperties.swift */; };
+		B069E35B2B99822E008FB84F /* FontPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E35A2B99822E008FB84F /* FontPreviewView.swift */; };
 		B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */; };
 		B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */; };
 		B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */; };
@@ -108,6 +110,8 @@
 		B069E33E2B992C9F008FB84F /* DSEG7Classic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Bold.ttf"; sourceTree = "<group>"; };
 		B069E33F2B992C9F008FB84F /* DSEG7Classic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Light.ttf"; sourceTree = "<group>"; };
 		B069E3402B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Light.ttf"; sourceTree = "<group>"; };
+		B069E3582B99809D008FB84F /* FontSelectionProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSelectionProperties.swift; sourceTree = "<group>"; };
+		B069E35A2B99822E008FB84F /* FontPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPreviewView.swift; sourceTree = "<group>"; };
 		B0924B0A2B93DFC8001DC0BF /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 		B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareKeysTestView.swift; sourceTree = "<group>"; };
 		B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -277,6 +281,8 @@
 			children = (
 				B069E3262B992898008FB84F /* DigitalSevenFont.swift */,
 				B069E3282B9929DE008FB84F /* DigitalSevenView.swift */,
+				B069E3582B99809D008FB84F /* FontSelectionProperties.swift */,
+				B069E35A2B99822E008FB84F /* FontPreviewView.swift */,
 			);
 			path = "Digital Seven Typography";
 			sourceTree = "<group>";
@@ -324,14 +330,13 @@
 		B0A7DDFA2B92968D00B6D6A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */,
+				B0A7DE0A2B92A04200B6D6A5 /* ButtonView.swift */,
+				B0A7DE022B929A0800B6D6A5 /* ComputationView.swift */,
+				B0A7DE042B929B4300B6D6A5 /* CalculatorButtonsView.swift */,
 				B069E30D2B990B81008FB84F /* Theming */,
 				B0A7DE132B92BC0B00B6D6A5 /* sandbox */,
 				B04CADF52B943E9F0092909C /* LED Display */,
-				B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */,
-				B0A7DE042B929B4300B6D6A5 /* CalculatorButtonsView.swift */,
-				B0A7DE0A2B92A04200B6D6A5 /* ButtonView.swift */,
-				B0A7DE022B929A0800B6D6A5 /* ComputationView.swift */,
-				B0A7DDFD2B9296D000B6D6A5 /* SunMoonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 		B0A7DE132B92BC0B00B6D6A5 /* sandbox */ = {
 			isa = PBXGroup;
 			children = (
+				B0A7DDFD2B9296D000B6D6A5 /* SunMoonView.swift */,
 				B0924B0A2B93DFC8001DC0BF /* Notes.md */,
 				B04CAE052B9574160092909C /* OP1 */,
 				B0A7DE142B92BC1D00B6D6A5 /* TapbotsLayout.swift */,
@@ -477,6 +483,7 @@
 				B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */,
 				B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */,
 				B0A7DDFE2B9296D000B6D6A5 /* SunMoonView.swift in Sources */,
+				B069E35B2B99822E008FB84F /* FontPreviewView.swift in Sources */,
 				B069E3182B9917BD008FB84F /* NeoSynthKeyTheme.swift in Sources */,
 				B069E3142B991630008FB84F /* BlueDisplayTheme.swift in Sources */,
 				B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */,
@@ -502,6 +509,7 @@
 				B04CAE0F2B9639730092909C /* Haptics.swift in Sources */,
 				B069E31A2B9918ED008FB84F /* ButtonStyles.swift in Sources */,
 				B0A7DE072B929B6F00B6D6A5 /* Enumerations.swift in Sources */,
+				B069E3592B99809D008FB84F /* FontSelectionProperties.swift in Sources */,
 				B0A7DE0B2B92A04200B6D6A5 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

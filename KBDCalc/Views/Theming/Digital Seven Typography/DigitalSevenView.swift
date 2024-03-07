@@ -39,7 +39,6 @@ struct DigitalSevenView: View {
   DigitalSevenView()
 }
 
-
 // Font picker modal view
 
 struct FontPickerModal: View {
