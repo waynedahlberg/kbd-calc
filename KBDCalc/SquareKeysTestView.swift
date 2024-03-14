@@ -19,7 +19,7 @@ struct SquareKeysTestView: View {
     ["number-7", "number-8", "number-9", "multiply"],
     ["number-4", "number-5", "number-6", "minus"],
     ["number-1", "number-2", "number-3", "plus"],
-    ["undo", "number-0", "decimal", "equal"]
+    ["decimal", "number-0", "undo","equal"]
   ]
   
   let charData: [[String]] = [
@@ -35,15 +35,15 @@ struct SquareKeysTestView: View {
     [.clear, .clear, .clear, .clear],
     [.clear, .clear, .clear, .clear],
     [.clear, .clear, .clear, .clear],
-    [.clear, .clear, .clear, .clear]
+    [.clear, .clear, .red.opacity(0.05), .clear]
   ]
   
   let charColor: [[Color]] = [
-    [.clearBlue, .op1Gray, .op1Gray, .op1Gray],
+    [.op1Gray, .op1Gray, .op1Gray, .op1Gray],
     [.black, .black, .black, .op1Gray],
     [.black, .black, .black, .op1Gray],
     [.black, .black, .black, .op1Gray],
-    [.red, .black, .op1Gray, .op1Gray]
+    [.black, .black, .red, .op1Gray]
   ]
   
   var body: some View {
@@ -69,11 +69,10 @@ struct SquareKeysTestView: View {
               Spacer()
               BlueDisplayTheme(
                 largeFontSize: UIDevice.isTablet ? 64 : 44,
-                smallFontSize: UIDevice.isTablet ? 24 : 16, resultText: "0.", computeText: "_")
+                smallFontSize: UIDevice.isTablet ? 24 : 16, resultText: "0.", computeText: " ")
               .aspectRatio(2.32, contentMode: .fit)
               .frame(width: proxy.size.width)
             }
-            .border(.yellow)
           }
           
           Spacer() // if needed?

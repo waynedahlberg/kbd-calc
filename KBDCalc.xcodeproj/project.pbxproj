@@ -19,6 +19,7 @@
 		B04D854D2B9BEFC20038E522 /* Flicker.metal in Sources */ = {isa = PBXBuildFile; fileRef = B04D854C2B9BEFC20038E522 /* Flicker.metal */; };
 		B04D85552B9BF91F0038E522 /* NoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D85542B9BF91F0038E522 /* NoiseView.swift */; };
 		B04F4E412BA26C0F00F86770 /* LCDCalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F4E402BA26C0F00F86770 /* LCDCalculationView.swift */; };
+		B04F4E432BA284E600F86770 /* TestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F4E422BA284E600F86770 /* TestButtonView.swift */; };
 		B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3092B99025E008FB84F /* Extension+Double.swift */; };
 		B069E30C2B99093A008FB84F /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30B2B99093A008FB84F /* Extension+String.swift */; };
 		B069E30F2B990B89008FB84F /* ButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30E2B990B89008FB84F /* ButtonTheme.swift */; };
@@ -59,6 +60,8 @@
 		B06CDF4B2B9BFD1800D33D43 /* PixellatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CDF4A2B9BFD1800D33D43 /* PixellatedView.swift */; };
 		B06CDF4D2B9BFDE300D33D43 /* Pixellate.metal in Sources */ = {isa = PBXBuildFile; fileRef = B06CDF4C2B9BFDE300D33D43 /* Pixellate.metal */; };
 		B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */; };
+		B09CD85F2BA288C800C333F3 /* DigitalFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09CD85E2BA288C800C333F3 /* DigitalFontModifier.swift */; };
+		B09CD8622BA289EB00C333F3 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09CD8612BA289EB00C333F3 /* DisplayView.swift */; };
 		B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */; };
 		B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */; };
 		B0A7DDF22B92710D00B6D6A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDF12B92710D00B6D6A5 /* Preview Assets.xcassets */; };
@@ -92,6 +95,7 @@
 		B04D854C2B9BEFC20038E522 /* Flicker.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Flicker.metal; sourceTree = "<group>"; };
 		B04D85542B9BF91F0038E522 /* NoiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseView.swift; sourceTree = "<group>"; };
 		B04F4E402BA26C0F00F86770 /* LCDCalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDCalculationView.swift; sourceTree = "<group>"; };
+		B04F4E422BA284E600F86770 /* TestButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonView.swift; sourceTree = "<group>"; };
 		B069E3092B99025E008FB84F /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
 		B069E30B2B99093A008FB84F /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		B069E30E2B990B89008FB84F /* ButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTheme.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 		B06CDF4C2B9BFDE300D33D43 /* Pixellate.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Pixellate.metal; sourceTree = "<group>"; };
 		B0924B0A2B93DFC8001DC0BF /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 		B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareKeysTestView.swift; sourceTree = "<group>"; };
+		B09CD85E2BA288C800C333F3 /* DigitalFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalFontModifier.swift; sourceTree = "<group>"; };
+		B09CD8612BA289EB00C333F3 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBDCalcApp.swift; sourceTree = "<group>"; };
 		B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -165,14 +171,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B04CADF52B943E9F0092909C /* LED Display */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "LED Display";
-			path = ..;
-			sourceTree = "<group>";
-		};
 		B04CADFE2B944B170092909C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				B04CAE062B9574270092909C /* OP1ButtonView.swift */,
+				B04F4E422BA284E600F86770 /* TestButtonView.swift */,
 			);
 			name = OP1;
 			sourceTree = "<group>";
@@ -260,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				B04F4E402BA26C0F00F86770 /* LCDCalculationView.swift */,
+				B09CD8612BA289EB00C333F3 /* DisplayView.swift */,
 			);
 			path = "New Views";
 			sourceTree = "<group>";
@@ -267,6 +267,7 @@
 		B069E30D2B990B81008FB84F /* Theming */ = {
 			isa = PBXGroup;
 			children = (
+				B09CD8602BA289B700C333F3 /* New Group */,
 				B069E3252B992877008FB84F /* Digital Seven Typography */,
 				B069E3122B991611008FB84F /* Themes */,
 				B069E31B2B99191D008FB84F /* Styles */,
@@ -314,11 +315,19 @@
 			isa = PBXGroup;
 			children = (
 				B069E3262B992898008FB84F /* DigitalSevenFont.swift */,
+				B09CD85E2BA288C800C333F3 /* DigitalFontModifier.swift */,
 				B069E3282B9929DE008FB84F /* DigitalSevenView.swift */,
 				B069E3582B99809D008FB84F /* FontSelectionProperties.swift */,
 				B069E35A2B99822E008FB84F /* FontPreviewView.swift */,
 			);
 			path = "Digital Seven Typography";
+			sourceTree = "<group>";
+		};
+		B09CD8602BA289B700C333F3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		B0A7DDDD2B92710C00B6D6A5 = {
@@ -371,7 +380,6 @@
 				B0A7DE042B929B4300B6D6A5 /* CalculatorButtonsView.swift */,
 				B069E30D2B990B81008FB84F /* Theming */,
 				B0A7DE132B92BC0B00B6D6A5 /* sandbox */,
-				B04CADF52B943E9F0092909C /* LED Display */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -521,6 +529,8 @@
 				B069E3182B9917BD008FB84F /* NeoSynthKeyTheme.swift in Sources */,
 				B069E3142B991630008FB84F /* BlueDisplayTheme.swift in Sources */,
 				B04D85402B9BC55E0038E522 /* AllDisplaysView.swift in Sources */,
+				B09CD85F2BA288C800C333F3 /* DigitalFontModifier.swift in Sources */,
+				B04F4E432BA284E600F86770 /* TestButtonView.swift in Sources */,
 				B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */,
 				B0A7DE012B9297F500B6D6A5 /* iPadSupport.swift in Sources */,
 				B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */,
@@ -529,6 +539,7 @@
 				B06CDF4D2B9BFDE300D33D43 /* Pixellate.metal in Sources */,
 				B069E31E2B991C88008FB84F /* Extension+View.swift in Sources */,
 				B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */,
+				B09CD8622BA289EB00C333F3 /* DisplayView.swift in Sources */,
 				B04D85442B9BC9470038E522 /* LCD1DisplayTheme.swift in Sources */,
 				B069E3272B992898008FB84F /* DigitalSevenFont.swift in Sources */,
 				B069E3292B9929DE008FB84F /* DigitalSevenView.swift in Sources */,
