@@ -12,6 +12,12 @@ struct BlueDisplayTheme: View {
   var largeFontSize: CGFloat
   var smallFontSize: CGFloat
   
+  var resultText: String
+  var computeText: String
+  
+  let baseResultText: String = "888888888."
+  let baseComputeText: String = "8888888888888888888"
+    
   let screenGradient2 = LinearGradient(stops: [
     Gradient.Stop(color: Color.black.opacity(0.3), location: 0.0),
     Gradient.Stop(color: Color(hex: "#8295EF").opacity(0.10), location: 0.4),
@@ -34,40 +40,48 @@ struct BlueDisplayTheme: View {
         HStack {
           Spacer()
           ZStack(alignment: .trailing) {
-            Text("8888888888.")
+            Text(baseResultText.appending(" "))
               .foregroundStyle(.cyan.opacity(0.1))
               .font(.custom("DSEG7Classic-Regular", size: largeFontSize))
-            Text("3.1415927")
+            Text(resultText.appending(" "))
               .foregroundStyle(.white)
               .font(.custom("DSEG7Classic-Regular", size: largeFontSize))
-              .glow(color: .ledblue, radius: 13, opacity: 0.5)
+              .glow(color: .ledblue, radius: 5, opacity: 0.8)
           }
         }
 
         HStack {
           ZStack(alignment: .trailing) {
-            Text("88888888888")
+            Text("\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}\u{007E}".appending(" "))
               .foregroundStyle(.cyan.opacity(0.1))
-              .font(.custom("DSEG7Classic-Regular", size: smallFontSize))
-            Text("3 x 8")
+              .font(.custom("DSEG14Classic-Regular", size: smallFontSize))
+
+            Text(computeText.appending(" "))
               .foregroundStyle(.white)
-              .font(.custom("DSEG7Classic-Regular", size: smallFontSize))
-              .glow(color: .ledblue, radius: 24, opacity: 0.85)
+              .font(.custom("DSEG14Classic-Regular", size: smallFontSize))
+              .glow(color: .ledblue, radius: 6, opacity: 0.7)
           }
+          .padding(.trailing, 8)
         }
         
       }
       .padding(.trailing, 16.0)
-      .padding(.bottom, 20)
+      
       .overlay {
-        HexagonGridView(rows: 60, columns: 108, hexagonSize: 4, strokeColor: .black)
+//        HexagonGridView(rows: 60, columns: 108, hexagonSize: 4, strokeColor: .black)
+//          .blendMode(.sourceAtop)
+//          .opacity(0.5)
+        Image("hex-grid-1290")
+          .resizable()
+          .aspectRatio(1290/540, contentMode: .fill)
           .blendMode(.sourceAtop)
           .opacity(0.5)
+
       }
     }
   }
 }
 
 #Preview {
-  BlueDisplayTheme(largeFontSize: 32, smallFontSize: 16)
+  BlueDisplayTheme(largeFontSize: 44, smallFontSize: 16, resultText: "12345.", computeText: "123456")
 }

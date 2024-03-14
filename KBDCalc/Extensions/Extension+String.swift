@@ -20,4 +20,8 @@ extension String {
     numberFormatter.maximumFractionDigits = places // Up to 'places' decimal places
     return numberFormatter.string(from: NSNumber(value: number))
   }
+  
+  func appending(_ string: String) -> String {
+    return self + string 
+  }
 }

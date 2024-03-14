@@ -11,6 +11,14 @@
 		B04CAE072B9574270092909C /* OP1ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE062B9574270092909C /* OP1ButtonView.swift */; };
 		B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE082B95749D0092909C /* Extension+Color.swift */; };
 		B04CAE0F2B9639730092909C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CAE0E2B9639730092909C /* Haptics.swift */; };
+		B04D85402B9BC55E0038E522 /* AllDisplaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D853F2B9BC55E0038E522 /* AllDisplaysView.swift */; };
+		B04D85442B9BC9470038E522 /* LCD1DisplayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D85432B9BC9470038E522 /* LCD1DisplayTheme.swift */; };
+		B04D85462B9BCDDB0038E522 /* LCD2DisplayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D85452B9BCDDB0038E522 /* LCD2DisplayTheme.swift */; };
+		B04D85482B9BD7F00038E522 /* LCD3DisplayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D85472B9BD7F00038E522 /* LCD3DisplayTheme.swift */; };
+		B04D854B2B9BEF750038E522 /* MetalFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D854A2B9BEF750038E522 /* MetalFilterView.swift */; };
+		B04D854D2B9BEFC20038E522 /* Flicker.metal in Sources */ = {isa = PBXBuildFile; fileRef = B04D854C2B9BEFC20038E522 /* Flicker.metal */; };
+		B04D85552B9BF91F0038E522 /* NoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D85542B9BF91F0038E522 /* NoiseView.swift */; };
+		B04F4E412BA26C0F00F86770 /* LCDCalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F4E402BA26C0F00F86770 /* LCDCalculationView.swift */; };
 		B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3092B99025E008FB84F /* Extension+Double.swift */; };
 		B069E30C2B99093A008FB84F /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30B2B99093A008FB84F /* Extension+String.swift */; };
 		B069E30F2B990B89008FB84F /* ButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E30E2B990B89008FB84F /* ButtonTheme.swift */; };
@@ -48,6 +56,8 @@
 		B069E3572B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069E3402B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf */; };
 		B069E3592B99809D008FB84F /* FontSelectionProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E3582B99809D008FB84F /* FontSelectionProperties.swift */; };
 		B069E35B2B99822E008FB84F /* FontPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069E35A2B99822E008FB84F /* FontPreviewView.swift */; };
+		B06CDF4B2B9BFD1800D33D43 /* PixellatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CDF4A2B9BFD1800D33D43 /* PixellatedView.swift */; };
+		B06CDF4D2B9BFDE300D33D43 /* Pixellate.metal in Sources */ = {isa = PBXBuildFile; fileRef = B06CDF4C2B9BFDE300D33D43 /* Pixellate.metal */; };
 		B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */; };
 		B0A7DDEA2B92710C00B6D6A5 /* KBDCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DDE92B92710C00B6D6A5 /* KBDCalcApp.swift */; };
 		B0A7DDEE2B92710D00B6D6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DDED2B92710D00B6D6A5 /* Assets.xcassets */; };
@@ -63,7 +73,6 @@
 		B0A7DE112B92A9D300B6D6A5 /* MainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */; };
 		B0A7DE152B92BC1D00B6D6A5 /* TapbotsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DE142B92BC1D00B6D6A5 /* TapbotsLayout.swift */; };
 		B0FAD70C2B9687390091C081 /* DSEG7Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0FAD70B2B9687390091C081 /* DSEG7Classic-Regular.ttf */; };
-		B0FAD7252B97A4110091C081 /* HexGrid in Frameworks */ = {isa = PBXBuildFile; productRef = B0FAD7242B97A4110091C081 /* HexGrid */; };
 		B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7332B97B4380091C081 /* HexagonGridView.swift */; };
 		B0FAD7362B97B51F0091C081 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAD7352B97B51F0091C081 /* Hexagon.swift */; };
 		B0FAD7612B98F4830091C081 /* MathParser in Frameworks */ = {isa = PBXBuildFile; productRef = B0FAD7602B98F4830091C081 /* MathParser */; };
@@ -75,6 +84,14 @@
 		B04CAE062B9574270092909C /* OP1ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OP1ButtonView.swift; sourceTree = "<group>"; };
 		B04CAE082B95749D0092909C /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
 		B04CAE0E2B9639730092909C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		B04D853F2B9BC55E0038E522 /* AllDisplaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDisplaysView.swift; sourceTree = "<group>"; };
+		B04D85432B9BC9470038E522 /* LCD1DisplayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCD1DisplayTheme.swift; sourceTree = "<group>"; };
+		B04D85452B9BCDDB0038E522 /* LCD2DisplayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCD2DisplayTheme.swift; sourceTree = "<group>"; };
+		B04D85472B9BD7F00038E522 /* LCD3DisplayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCD3DisplayTheme.swift; sourceTree = "<group>"; };
+		B04D854A2B9BEF750038E522 /* MetalFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalFilterView.swift; sourceTree = "<group>"; };
+		B04D854C2B9BEFC20038E522 /* Flicker.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Flicker.metal; sourceTree = "<group>"; };
+		B04D85542B9BF91F0038E522 /* NoiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseView.swift; sourceTree = "<group>"; };
+		B04F4E402BA26C0F00F86770 /* LCDCalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDCalculationView.swift; sourceTree = "<group>"; };
 		B069E3092B99025E008FB84F /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
 		B069E30B2B99093A008FB84F /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		B069E30E2B990B89008FB84F /* ButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTheme.swift; sourceTree = "<group>"; };
@@ -112,6 +129,8 @@
 		B069E3402B992C9F008FB84F /* DSEG7ClassicMini-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7ClassicMini-Light.ttf"; sourceTree = "<group>"; };
 		B069E3582B99809D008FB84F /* FontSelectionProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSelectionProperties.swift; sourceTree = "<group>"; };
 		B069E35A2B99822E008FB84F /* FontPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPreviewView.swift; sourceTree = "<group>"; };
+		B06CDF4A2B9BFD1800D33D43 /* PixellatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixellatedView.swift; sourceTree = "<group>"; };
+		B06CDF4C2B9BFDE300D33D43 /* Pixellate.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Pixellate.metal; sourceTree = "<group>"; };
 		B0924B0A2B93DFC8001DC0BF /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 		B09B73702B93FBC90086F228 /* SquareKeysTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareKeysTestView.swift; sourceTree = "<group>"; };
 		B0A7DDE62B92710C00B6D6A5 /* KBDCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +158,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FAD7252B97A4110091C081 /* HexGrid in Frameworks */,
 				B0FAD7612B98F4830091C081 /* MathParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +220,50 @@
 			name = OP1;
 			sourceTree = "<group>";
 		};
+		B04D85412B9BC9040038E522 /* LED Displays */ = {
+			isa = PBXGroup;
+			children = (
+				B0FAD7332B97B4380091C081 /* HexagonGridView.swift */,
+				B0FAD7352B97B51F0091C081 /* Hexagon.swift */,
+				B069E3232B992541008FB84F /* GreenDisplayTheme.swift */,
+				B069E31F2B99251D008FB84F /* RedDisplayTheme.swift */,
+				B069E3132B991630008FB84F /* BlueDisplayTheme.swift */,
+				B04CADF12B94303C0092909C /* LCDGlow.metal */,
+				B04D853F2B9BC55E0038E522 /* AllDisplaysView.swift */,
+			);
+			path = "LED Displays";
+			sourceTree = "<group>";
+		};
+		B04D85422B9BC9130038E522 /* LCD Displays */ = {
+			isa = PBXGroup;
+			children = (
+				B04D85432B9BC9470038E522 /* LCD1DisplayTheme.swift */,
+				B04D85452B9BCDDB0038E522 /* LCD2DisplayTheme.swift */,
+				B04D85472B9BD7F00038E522 /* LCD3DisplayTheme.swift */,
+			);
+			path = "LCD Displays";
+			sourceTree = "<group>";
+		};
+		B04D85492B9BEF580038E522 /* metal */ = {
+			isa = PBXGroup;
+			children = (
+				B04D854A2B9BEF750038E522 /* MetalFilterView.swift */,
+				B04D85542B9BF91F0038E522 /* NoiseView.swift */,
+				B06CDF4A2B9BFD1800D33D43 /* PixellatedView.swift */,
+				B06CDF4C2B9BFDE300D33D43 /* Pixellate.metal */,
+				B04D854C2B9BEFC20038E522 /* Flicker.metal */,
+			);
+			name = metal;
+			sourceTree = "<group>";
+		};
+		B04F4E3F2BA26BFD00F86770 /* New Views */ = {
+			isa = PBXGroup;
+			children = (
+				B04F4E402BA26C0F00F86770 /* LCDCalculationView.swift */,
+			);
+			path = "New Views";
+			sourceTree = "<group>";
+		};
 		B069E30D2B990B81008FB84F /* Theming */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,9 +288,8 @@
 		B069E3152B99172B008FB84F /* Displays */ = {
 			isa = PBXGroup;
 			children = (
-				B069E3222B99252C008FB84F /* Green Display */,
-				B069E3212B992522008FB84F /* Red Display */,
-				B069E31C2B9919A9008FB84F /* BlueDisplay */,
+				B04D85422B9BC9130038E522 /* LCD Displays */,
+				B04D85412B9BC9040038E522 /* LED Displays */,
 			);
 			path = Displays;
 			sourceTree = "<group>";
@@ -247,33 +308,6 @@
 				B069E3192B9918ED008FB84F /* ButtonStyles.swift */,
 			);
 			path = Styles;
-			sourceTree = "<group>";
-		};
-		B069E31C2B9919A9008FB84F /* BlueDisplay */ = {
-			isa = PBXGroup;
-			children = (
-				B069E3132B991630008FB84F /* BlueDisplayTheme.swift */,
-				B0FAD7332B97B4380091C081 /* HexagonGridView.swift */,
-				B0FAD7352B97B51F0091C081 /* Hexagon.swift */,
-				B04CADF12B94303C0092909C /* LCDGlow.metal */,
-			);
-			path = BlueDisplay;
-			sourceTree = "<group>";
-		};
-		B069E3212B992522008FB84F /* Red Display */ = {
-			isa = PBXGroup;
-			children = (
-				B069E31F2B99251D008FB84F /* RedDisplayTheme.swift */,
-			);
-			path = "Red Display";
-			sourceTree = "<group>";
-		};
-		B069E3222B99252C008FB84F /* Green Display */ = {
-			isa = PBXGroup;
-			children = (
-				B069E3232B992541008FB84F /* GreenDisplayTheme.swift */,
-			);
-			path = "Green Display";
 			sourceTree = "<group>";
 		};
 		B069E3252B992877008FB84F /* Digital Seven Typography */ = {
@@ -330,6 +364,7 @@
 		B0A7DDFA2B92968D00B6D6A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B04F4E3F2BA26BFD00F86770 /* New Views */,
 				B0A7DE102B92A9D300B6D6A5 /* MainCalculator.swift */,
 				B0A7DE0A2B92A04200B6D6A5 /* ButtonView.swift */,
 				B0A7DE022B929A0800B6D6A5 /* ComputationView.swift */,
@@ -367,6 +402,7 @@
 		B0A7DE132B92BC0B00B6D6A5 /* sandbox */ = {
 			isa = PBXGroup;
 			children = (
+				B04D85492B9BEF580038E522 /* metal */,
 				B0A7DDFD2B9296D000B6D6A5 /* SunMoonView.swift */,
 				B0924B0A2B93DFC8001DC0BF /* Notes.md */,
 				B04CAE052B9574160092909C /* OP1 */,
@@ -394,7 +430,6 @@
 			);
 			name = KBDCalc;
 			packageProductDependencies = (
-				B0FAD7242B97A4110091C081 /* HexGrid */,
 				B0FAD7602B98F4830091C081 /* MathParser */,
 			);
 			productName = KBDCalc;
@@ -426,7 +461,6 @@
 			);
 			mainGroup = B0A7DDDD2B92710C00B6D6A5;
 			packageReferences = (
-				B0FAD7232B97A4110091C081 /* XCRemoteSwiftPackageReference "hex-grid" */,
 				B0FAD75F2B98F4830091C081 /* XCRemoteSwiftPackageReference "DDMathParser" */,
 			);
 			productRefGroup = B0A7DDE72B92710C00B6D6A5 /* Products */;
@@ -486,12 +520,16 @@
 				B069E35B2B99822E008FB84F /* FontPreviewView.swift in Sources */,
 				B069E3182B9917BD008FB84F /* NeoSynthKeyTheme.swift in Sources */,
 				B069E3142B991630008FB84F /* BlueDisplayTheme.swift in Sources */,
+				B04D85402B9BC55E0038E522 /* AllDisplaysView.swift in Sources */,
 				B0A7DE0F2B92A58F00B6D6A5 /* Helpers.swift in Sources */,
 				B0A7DE012B9297F500B6D6A5 /* iPadSupport.swift in Sources */,
 				B0A7DE0D2B92A25900B6D6A5 /* EnvironmentValues.swift in Sources */,
 				B04CAE092B95749D0092909C /* Extension+Color.swift in Sources */,
+				B04D854D2B9BEFC20038E522 /* Flicker.metal in Sources */,
+				B06CDF4D2B9BFDE300D33D43 /* Pixellate.metal in Sources */,
 				B069E31E2B991C88008FB84F /* Extension+View.swift in Sources */,
 				B0FAD7342B97B4380091C081 /* HexagonGridView.swift in Sources */,
+				B04D85442B9BC9470038E522 /* LCD1DisplayTheme.swift in Sources */,
 				B069E3272B992898008FB84F /* DigitalSevenFont.swift in Sources */,
 				B069E3292B9929DE008FB84F /* DigitalSevenView.swift in Sources */,
 				B069E3242B992541008FB84F /* GreenDisplayTheme.swift in Sources */,
@@ -499,11 +537,17 @@
 				B04CAE072B9574270092909C /* OP1ButtonView.swift in Sources */,
 				B069E30A2B99025E008FB84F /* Extension+Double.swift in Sources */,
 				B0A7DE032B929A0800B6D6A5 /* ComputationView.swift in Sources */,
+				B04F4E412BA26C0F00F86770 /* LCDCalculationView.swift in Sources */,
+				B04D85462B9BCDDB0038E522 /* LCD2DisplayTheme.swift in Sources */,
+				B04D854B2B9BEF750038E522 /* MetalFilterView.swift in Sources */,
 				B069E3202B99251D008FB84F /* RedDisplayTheme.swift in Sources */,
 				B0A7DE152B92BC1D00B6D6A5 /* TapbotsLayout.swift in Sources */,
+				B04D85552B9BF91F0038E522 /* NoiseView.swift in Sources */,
 				B069E30C2B99093A008FB84F /* Extension+String.swift in Sources */,
 				B04CADF22B94303C0092909C /* LCDGlow.metal in Sources */,
+				B06CDF4B2B9BFD1800D33D43 /* PixellatedView.swift in Sources */,
 				B0FAD7362B97B51F0091C081 /* Hexagon.swift in Sources */,
+				B04D85482B9BD7F00038E522 /* LCD3DisplayTheme.swift in Sources */,
 				B069E3112B9912F9008FB84F /* DisplayTheme.swift in Sources */,
 				B09B73712B93FBC90086F228 /* SquareKeysTestView.swift in Sources */,
 				B04CAE0F2B9639730092909C /* Haptics.swift in Sources */,
@@ -643,6 +687,7 @@
 				DEVELOPMENT_TEAM = 6Y33CRE77K;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KBDCalc/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "KBD Calc";
@@ -665,10 +710,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.waynedahlberg.KBDCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -684,6 +730,7 @@
 				DEVELOPMENT_TEAM = 6Y33CRE77K;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KBDCalc/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "KBD Calc";
@@ -706,10 +753,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.waynedahlberg.KBDCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -737,14 +785,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B0FAD7232B97A4110091C081 /* XCRemoteSwiftPackageReference "hex-grid" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/fananek/hex-grid.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.4.11;
-			};
-		};
 		B0FAD75F2B98F4830091C081 /* XCRemoteSwiftPackageReference "DDMathParser" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/davedelong/DDMathParser.git";
@@ -756,11 +796,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B0FAD7242B97A4110091C081 /* HexGrid */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0FAD7232B97A4110091C081 /* XCRemoteSwiftPackageReference "hex-grid" */;
-			productName = HexGrid;
-		};
 		B0FAD7602B98F4830091C081 /* MathParser */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B0FAD75F2B98F4830091C081 /* XCRemoteSwiftPackageReference "DDMathParser" */;

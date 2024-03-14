@@ -38,7 +38,12 @@ struct ComputationView: View {
       .minimumScaleFactor(0.1)
 
     }
-    .padding(.horizontal)
+    .overlay {
+      Image("hex-grid-1290")
+        .resizable()
+        .aspectRatio(1290/540, contentMode: .fill)
+    }
+    .border(.red)
   }
 }
 

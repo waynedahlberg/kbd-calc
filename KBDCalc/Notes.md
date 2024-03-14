@@ -59,3 +59,6 @@ White would be Teenage Engineering keys (different font)
 Each theme needs its own buttonView and buttonsView, with bindings to the model!!!! So important.
 
 QUESTION: How can I incorporate light and dark mode for each theme?
+
+
+The font chooser is working great. Ultimately I won't incorporate it verbatim. I need to create the R/G/B selector and apply the themes accordingly with my theme choose.

@@ -15,11 +15,11 @@ struct SquareKeysTestView: View {
   let gridSpacing: CGFloat = 4
   
   let svgData: [[String]] = [
-    ["letter-c", "plus-minus", "percentage", "divide"],
+    ["clear", "negative", "percentage", "divide"],
     ["number-7", "number-8", "number-9", "multiply"],
     ["number-4", "number-5", "number-6", "minus"],
     ["number-1", "number-2", "number-3", "plus"],
-    ["backspace", "number-0", "decimal", "equal"]
+    ["undo", "number-0", "decimal", "equal"]
   ]
   
   let charData: [[String]] = [
@@ -69,10 +69,11 @@ struct SquareKeysTestView: View {
               Spacer()
               BlueDisplayTheme(
                 largeFontSize: UIDevice.isTablet ? 64 : 44,
-                smallFontSize: UIDevice.isTablet ? 24 : 16)
+                smallFontSize: UIDevice.isTablet ? 24 : 16, resultText: "0.", computeText: "_")
               .aspectRatio(2.32, contentMode: .fit)
               .frame(width: proxy.size.width)
             }
+            .border(.yellow)
           }
           
           Spacer() // if needed?

@@ -11,8 +11,11 @@ import SwiftUI
 struct KBDCalcApp: App {
   var body: some Scene {
     WindowGroup {
-      // SquareKeysTestView()
-      DigitalSevenView()
+      PixellatedView()
+//      AllDisplaysView(resultText: "HELLO", computeText: "world")
+//      SquareKeysTestView()
+//      ComputationView(currentDisplayTheme: .constant(DisplayTheme.basic), currentComputation: "11 + 12", mainResult: "23")      // SquareKeysTestView()
+//      DigitalSevenView()
     }
   }
 }
